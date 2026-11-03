@@ -1,0 +1,17 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "out": "outputs/sft",
+ "epochs": 2,
+ "lr": 0.0002,
+ "micro_batch": 16,
+ "accum": 2,
+ "max_len": 512,
+ "val": 200,
+ "limit": null,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "lora_dropout": 0.05,
+ "eval_every": 100,
+ "log_every": 10,
+ "seed": 0
+}

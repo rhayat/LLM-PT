@@ -1,0 +1,36 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 4205.95it/s]
+loaded in 25s; 1319 examples
+  64/1319 (55s)
+  128/1319 (67s)
+  192/1319 (78s)
+  256/1319 (90s)
+  320/1319 (101s)
+  384/1319 (112s)
+  448/1319 (124s)
+  512/1319 (135s)
+  576/1319 (148s)
+  640/1319 (159s)
+  704/1319 (171s)
+  768/1319 (182s)
+  832/1319 (194s)
+  896/1319 (205s)
+  960/1319 (216s)
+  1024/1319 (228s)
+  1088/1319 (239s)
+  1152/1319 (250s)
+  1216/1319 (262s)
+  1280/1319 (273s)
+  1319/1319 (284s)
+saved raw outputs to results/baseline.raw.json
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "adapter": null,
+ "split": "test",
+ "n": 1319,
+ "accuracy": 0.39878695981804396,
+ "format_rate": 0.3821076573161486,
+ "mean_new_tokens": 260.9385898407885,
+ "seconds": 284
+}

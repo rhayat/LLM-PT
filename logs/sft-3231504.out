@@ -1,0 +1,83 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+train 7273 (dropped 0 too long), val 200; tokens/example mean 204 max 496
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:50,  5.71it/s]Loading weights:   1%|▏         | 4/290 [00:00<00:17, 16.09it/s]Loading weights:   4%|▍         | 11/290 [00:00<00:08, 34.59it/s]Loading weights:   8%|▊         | 22/290 [00:00<00:05, 52.83it/s]Loading weights:  10%|█         | 30/290 [00:00<00:04, 53.26it/s]Loading weights:  16%|█▌        | 46/290 [00:00<00:03, 74.89it/s]Loading weights:  19%|█▊        | 54/290 [00:00<00:03, 66.80it/s]Loading weights:  21%|██        | 61/290 [00:01<00:03, 64.61it/s]Loading weights:  27%|██▋       | 79/290 [00:01<00:02, 92.77it/s]Loading weights:  31%|███       | 89/290 [00:01<00:02, 94.04it/s]Loading weights:  34%|███▍      | 99/290 [00:01<00:02, 94.20it/s]Loading weights:  42%|████▏     | 122/290 [00:01<00:01, 107.33it/s]Loading weights:  48%|████▊     | 138/290 [00:01<00:01, 105.66it/s]Loading weights:  51%|█████▏    | 149/290 [00:01<00:01, 86.01it/s] Loading weights:  54%|█████▍    | 158/290 [00:02<00:01, 80.42it/s]Loading weights:  58%|█████▊    | 167/290 [00:02<00:01, 78.81it/s]Loading weights:  60%|██████    | 175/290 [00:02<00:01, 77.60it/s]Loading weights:  63%|██████▎   | 183/290 [00:02<00:02, 53.27it/s]Loading weights:  66%|██████▌   | 191/290 [00:02<00:01, 58.00it/s]Loading weights:  68%|██████▊   | 198/290 [00:02<00:01, 54.94it/s]Loading weights:  71%|███████   | 205/290 [00:02<00:01, 54.46it/s]Loading weights:  73%|███████▎  | 211/290 [00:03<00:01, 47.85it/s]Loading weights:  76%|███████▌  | 219/290 [00:03<00:01, 50.13it/s]Loading weights: 100%|██████████| 290/290 [00:03<00:00, 86.65it/s]
+trainable params: 8,798,208 || all params: 502,830,976 || trainable%: 1.7497
+456 optimizer steps (228/epoch), effective batch 32, warmup 13
+step 0 | val loss 0.6774
+step 10/456 | epoch 1 | train loss 0.5954 | grad norm 0.76 | lr 1.69e-04 | 53s
+step 20/456 | epoch 1 | train loss 0.5633 | grad norm 0.70 | lr 2.00e-04 | 62s
+step 30/456 | epoch 1 | train loss 0.5442 | grad norm 0.64 | lr 1.99e-04 | 71s
+step 40/456 | epoch 1 | train loss 0.5423 | grad norm 0.61 | lr 1.98e-04 | 80s
+step 50/456 | epoch 1 | train loss 0.5576 | grad norm 0.68 | lr 1.97e-04 | 88s
+step 60/456 | epoch 1 | train loss 0.5493 | grad norm 0.66 | lr 1.94e-04 | 96s
+step 70/456 | epoch 1 | train loss 0.5352 | grad norm 0.61 | lr 1.92e-04 | 105s
+step 80/456 | epoch 1 | train loss 0.5453 | grad norm 0.61 | lr 1.89e-04 | 114s
+step 90/456 | epoch 1 | train loss 0.5475 | grad norm 0.62 | lr 1.85e-04 | 123s
+step 100/456 | epoch 1 | train loss 0.5336 | grad norm 0.58 | lr 1.82e-04 | 131s
+step 100 | val loss 0.5230
+step 110/456 | epoch 1 | train loss 0.5411 | grad norm 0.55 | lr 1.77e-04 | 142s
+step 120/456 | epoch 1 | train loss 0.5296 | grad norm 0.55 | lr 1.73e-04 | 150s
+step 130/456 | epoch 1 | train loss 0.5313 | grad norm 0.60 | lr 1.68e-04 | 159s
+step 140/456 | epoch 1 | train loss 0.5120 | grad norm 0.58 | lr 1.62e-04 | 167s
+step 150/456 | epoch 1 | train loss 0.5188 | grad norm 0.57 | lr 1.56e-04 | 176s
+step 160/456 | epoch 1 | train loss 0.5222 | grad norm 0.56 | lr 1.50e-04 | 185s
+step 170/456 | epoch 1 | train loss 0.5805 | grad norm 0.63 | lr 1.44e-04 | 194s
+step 180/456 | epoch 1 | train loss 0.5250 | grad norm 0.56 | lr 1.38e-04 | 203s
+step 190/456 | epoch 1 | train loss 0.5287 | grad norm 0.52 | lr 1.31e-04 | 212s
+step 200/456 | epoch 1 | train loss 0.5135 | grad norm 0.61 | lr 1.24e-04 | 220s
+step 200 | val loss 0.5142
+step 210/456 | epoch 1 | train loss 0.5235 | grad norm 0.57 | lr 1.17e-04 | 232s
+step 220/456 | epoch 1 | train loss 0.5231 | grad norm 0.62 | lr 1.10e-04 | 240s
+step 230/456 | epoch 2 | train loss 0.4989 | grad norm 0.50 | lr 1.03e-04 | 248s
+step 240/456 | epoch 2 | train loss 0.4151 | grad norm 0.64 | lr 9.61e-05 | 262s
+step 250/456 | epoch 2 | train loss 0.4222 | grad norm 0.55 | lr 8.90e-05 | 272s
+step 260/456 | epoch 2 | train loss 0.4354 | grad norm 0.59 | lr 8.20e-05 | 281s
+step 270/456 | epoch 2 | train loss 0.4335 | grad norm 0.63 | lr 7.51e-05 | 308s
+step 280/456 | epoch 2 | train loss 0.4588 | grad norm 0.58 | lr 6.83e-05 | 317s
+step 290/456 | epoch 2 | train loss 0.4328 | grad norm 0.58 | lr 6.16e-05 | 325s
+step 300/456 | epoch 2 | train loss 0.4437 | grad norm 0.63 | lr 5.52e-05 | 334s
+step 300 | val loss 0.5183
+step 310/456 | epoch 2 | train loss 0.4232 | grad norm 0.67 | lr 4.90e-05 | 345s
+step 320/456 | epoch 2 | train loss 0.4245 | grad norm 0.66 | lr 4.30e-05 | 354s
+step 330/456 | epoch 2 | train loss 0.4372 | grad norm 0.68 | lr 3.73e-05 | 362s
+step 340/456 | epoch 2 | train loss 0.4226 | grad norm 0.59 | lr 3.20e-05 | 371s
+step 350/456 | epoch 2 | train loss 0.4176 | grad norm 0.61 | lr 2.69e-05 | 380s
+step 360/456 | epoch 2 | train loss 0.4357 | grad norm 0.58 | lr 2.23e-05 | 388s
+step 370/456 | epoch 2 | train loss 0.4081 | grad norm 0.66 | lr 1.80e-05 | 397s
+step 380/456 | epoch 2 | train loss 0.4173 | grad norm 0.67 | lr 1.42e-05 | 406s
+step 390/456 | epoch 2 | train loss 0.4422 | grad norm 0.61 | lr 1.08e-05 | 415s
+step 400/456 | epoch 2 | train loss 0.4100 | grad norm 0.70 | lr 7.78e-06 | 423s
+step 400 | val loss 0.5150
+step 410/456 | epoch 2 | train loss 0.4315 | grad norm 0.65 | lr 5.27e-06 | 434s
+step 420/456 | epoch 2 | train loss 0.4351 | grad norm 0.71 | lr 3.24e-06 | 442s
+step 430/456 | epoch 2 | train loss 0.4220 | grad norm 0.67 | lr 1.70e-06 | 451s
+step 440/456 | epoch 2 | train loss 0.4231 | grad norm 0.80 | lr 6.43e-07 | 460s
+step 450/456 | epoch 2 | train loss 0.4446 | grad norm 0.70 | lr 9.05e-08 | 469s
+step 456/456 | epoch 2 | train loss 0.3831 | grad norm 1.10 | lr 0.00e+00 | 473s
+step 456 | val loss 0.5145
+/scratch/user/<user>/rl-night/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+saved adapter to outputs/sft
+
+--- gold 24 ---
+Q: The result from the 40-item Statistics exam Marion and Ella took already came out. Ella got 4 incorrect answers while Marion got 6 more than half the score of Ella. What is Marion's score?
+A: Half of the score of Ella is 40/2 = 20.
+So, Marion got 20 + 6 = 26 correct answers.
+Therefore, Marion's score is 40 - 26 = 14.
+#### 14
+
+--- gold 600000 ---
+Q: Stephen made 10 round trips up and down a 40,000 foot tall mountain. If he reached 3/4 of the mountain's height on each of his trips, calculate the total distance he covered.
+A: If Stephen reached 3/4 of the mountain's height on each of his trips, he covered 3/4*40,000 = 30,000 feet on each trip.
+Since he made 10 round trips, the total distance he covered is 10*30,000 = 300,000 feet.
+#### 300,000
+
+--- gold 2 ---
+Q: Bridget counted 14 shooting stars in the night sky.  Reginald counted two fewer shooting stars than did Bridget, but Sam counted four more shooting stars than did Reginald.  How many more shooting stars did Sam count in the night sky than was the average number of shooting stars observed for the three of them?
+A: Reginald counted 14 - 2 = 12 shooting stars.
+Sam counted 12 + 4 = 16 shooting stars.
+The total number of shooting stars counted by the three is 14 + 12 + 16 = 42.
+The average number of shooting stars observed is 42 / 3 = 14.
+Sam counted 16 - 14 = 2 more shooting stars than the average number observed.
+#### 2

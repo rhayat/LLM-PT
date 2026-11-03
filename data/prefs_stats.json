@@ -1,0 +1,13 @@
+{
+ "questions": 2000,
+ "pairs": 2423,
+ "samples": 16000,
+ "sample_accuracy": 0.3374375,
+ "unfinished_fraction": 0.015,
+ "questions_all_correct": 0.0345,
+ "questions_all_wrong": 0.242,
+ "questions_mixed": 0.7235,
+ "mean_tokens_chosen": 83.82872472141973,
+ "mean_tokens_rejected": 90.90713990920347,
+ "seconds": 766
+}

@@ -1,0 +1,317 @@
+2342 train pairs, 81 held-out pairs (dropped 0 too long)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   1%|          | 3/290 [00:00<00:19, 14.67it/s]Loading weights:   4%|▍         | 12/290 [00:00<00:09, 29.23it/s]Loading weights:   5%|▌         | 15/290 [00:00<00:11, 23.77it/s]Loading weights:   8%|▊         | 24/290 [00:00<00:07, 36.32it/s]Loading weights:  14%|█▍        | 41/290 [00:00<00:04, 59.99it/s]Loading weights:  18%|█▊        | 52/290 [00:01<00:03, 71.00it/s]Loading weights:  24%|██▍       | 71/290 [00:01<00:02, 90.78it/s]Loading weights:  28%|██▊       | 82/290 [00:01<00:02, 85.31it/s]Loading weights:  31%|███▏      | 91/290 [00:01<00:02, 84.19it/s]Loading weights:  37%|███▋      | 106/290 [00:01<00:01, 94.93it/s]Loading weights:  46%|████▌     | 133/290 [00:01<00:01, 127.01it/s]Loading weights:  50%|█████     | 146/290 [00:01<00:01, 118.50it/s]Loading weights:  55%|█████▌    | 160/290 [00:01<00:01, 120.10it/s]Loading weights:  60%|█████▉    | 173/290 [00:02<00:01, 103.79it/s]Loading weights:  63%|██████▎   | 184/290 [00:02<00:01, 71.89it/s] Loading weights:  67%|██████▋   | 193/290 [00:02<00:01, 69.64it/s]Loading weights:  69%|██████▉   | 201/290 [00:02<00:01, 69.19it/s]Loading weights:  76%|███████▌  | 219/290 [00:02<00:01, 70.09it/s]Loading weights:  78%|███████▊  | 227/290 [00:03<00:00, 66.94it/s]Loading weights:  81%|████████  | 234/290 [00:03<00:00, 58.34it/s]Loading weights:  85%|████████▌ | 247/290 [00:03<00:00, 67.26it/s]Loading weights:  89%|████████▉ | 259/290 [00:03<00:00, 74.78it/s]Loading weights: 100%|██████████| 290/290 [00:03<00:00, 81.77it/s]
+reference log-probs computed (59s)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 7540.11it/s]
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+294 optimizer steps (147/epoch), 16 pairs per step
+step 0 | val_loss 0.6889 | val_pair_acc 0.6296 | val_margin 0.0095 | heldout_greedy_acc 0.4850
+step 1/294 | epoch 1 | loss 0.6811 | pair acc 0.62 | chosen +0.017 | rejected -0.007 | gnorm 7.09 | 90s
+step 2/294 | epoch 1 | loss 0.6874 | pair acc 0.62 | chosen -0.002 | rejected -0.015 | gnorm 7.51 | 91s
+step 3/294 | epoch 1 | loss 0.6846 | pair acc 0.75 | chosen +0.002 | rejected -0.016 | gnorm 7.48 | 92s
+step 4/294 | epoch 1 | loss 0.6775 | pair acc 0.69 | chosen +0.020 | rejected -0.012 | gnorm 6.72 | 93s
+step 5/294 | epoch 1 | loss 0.6830 | pair acc 0.69 | chosen +0.005 | rejected -0.017 | gnorm 7.67 | 94s
+step 6/294 | epoch 1 | loss 0.6865 | pair acc 0.56 | chosen -0.011 | rejected -0.026 | gnorm 7.29 | 94s
+step 7/294 | epoch 1 | loss 0.6790 | pair acc 0.69 | chosen +0.011 | rejected -0.019 | gnorm 7.44 | 95s
+step 8/294 | epoch 1 | loss 0.6878 | pair acc 0.69 | chosen +0.006 | rejected -0.007 | gnorm 6.84 | 96s
+step 9/294 | epoch 1 | loss 0.7027 | pair acc 0.25 | chosen -0.022 | rejected -0.005 | gnorm 7.17 | 97s
+step 10/294 | epoch 1 | loss 0.6996 | pair acc 0.31 | chosen -0.025 | rejected -0.014 | gnorm 7.97 | 98s
+step 11/294 | epoch 1 | loss 0.6780 | pair acc 0.62 | chosen -0.001 | rejected -0.033 | gnorm 6.44 | 99s
+step 12/294 | epoch 1 | loss 0.6980 | pair acc 0.56 | chosen -0.001 | rejected +0.007 | gnorm 6.85 | 99s
+step 13/294 | epoch 1 | loss 0.6882 | pair acc 0.44 | chosen -0.004 | rejected -0.016 | gnorm 7.03 | 100s
+step 14/294 | epoch 1 | loss 0.6814 | pair acc 0.62 | chosen -0.007 | rejected -0.032 | gnorm 7.42 | 101s
+step 15/294 | epoch 1 | loss 0.7046 | pair acc 0.50 | chosen -0.002 | rejected +0.019 | gnorm 7.42 | 102s
+step 16/294 | epoch 1 | loss 0.6789 | pair acc 0.50 | chosen -0.012 | rejected -0.043 | gnorm 8.09 | 103s
+step 17/294 | epoch 1 | loss 0.6968 | pair acc 0.62 | chosen -0.049 | rejected -0.048 | gnorm 7.74 | 103s
+step 18/294 | epoch 1 | loss 0.6989 | pair acc 0.50 | chosen -0.012 | rejected -0.004 | gnorm 7.09 | 104s
+step 19/294 | epoch 1 | loss 0.6496 | pair acc 0.88 | chosen +0.024 | rejected -0.068 | gnorm 7.73 | 105s
+step 20/294 | epoch 1 | loss 0.6833 | pair acc 0.69 | chosen +0.007 | rejected -0.016 | gnorm 7.66 | 106s
+step 21/294 | epoch 1 | loss 0.6811 | pair acc 0.62 | chosen -0.016 | rejected -0.043 | gnorm 7.40 | 107s
+step 22/294 | epoch 1 | loss 0.6973 | pair acc 0.44 | chosen -0.019 | rejected -0.013 | gnorm 7.80 | 107s
+step 23/294 | epoch 1 | loss 0.6825 | pair acc 0.69 | chosen -0.023 | rejected -0.047 | gnorm 6.39 | 108s
+step 24/294 | epoch 1 | loss 0.6590 | pair acc 0.88 | chosen +0.019 | rejected -0.053 | gnorm 7.52 | 109s
+step 25/294 | epoch 1 | loss 0.6566 | pair acc 0.75 | chosen +0.011 | rejected -0.066 | gnorm 6.16 | 110s
+step 25 | val_loss 0.6884 | val_pair_acc 0.5802 | val_margin 0.0132 | heldout_greedy_acc 0.5100
+step 26/294 | epoch 1 | loss 0.6993 | pair acc 0.50 | chosen -0.051 | rejected -0.041 | gnorm 7.70 | 143s
+step 27/294 | epoch 1 | loss 0.6788 | pair acc 0.69 | chosen -0.026 | rejected -0.061 | gnorm 6.86 | 144s
+step 28/294 | epoch 1 | loss 0.6678 | pair acc 0.69 | chosen -0.033 | rejected -0.087 | gnorm 7.44 | 145s
+step 29/294 | epoch 1 | loss 0.7056 | pair acc 0.44 | chosen -0.064 | rejected -0.047 | gnorm 8.09 | 146s
+step 30/294 | epoch 1 | loss 0.6460 | pair acc 0.75 | chosen +0.008 | rejected -0.093 | gnorm 6.95 | 146s
+step 31/294 | epoch 1 | loss 0.6650 | pair acc 0.75 | chosen +0.011 | rejected -0.049 | gnorm 7.61 | 147s
+step 32/294 | epoch 1 | loss 0.6629 | pair acc 0.62 | chosen +0.007 | rejected -0.061 | gnorm 6.24 | 148s
+step 33/294 | epoch 1 | loss 0.6918 | pair acc 0.50 | chosen -0.021 | rejected -0.029 | gnorm 7.04 | 149s
+step 34/294 | epoch 1 | loss 0.6260 | pair acc 0.69 | chosen -0.026 | rejected -0.184 | gnorm 8.18 | 150s
+step 35/294 | epoch 1 | loss 0.6594 | pair acc 0.56 | chosen -0.056 | rejected -0.140 | gnorm 8.58 | 150s
+step 36/294 | epoch 1 | loss 0.6940 | pair acc 0.50 | chosen -0.016 | rejected -0.019 | gnorm 7.47 | 151s
+step 37/294 | epoch 1 | loss 0.6797 | pair acc 0.62 | chosen -0.026 | rejected -0.060 | gnorm 7.97 | 152s
+step 38/294 | epoch 1 | loss 0.6282 | pair acc 0.75 | chosen +0.001 | rejected -0.141 | gnorm 7.19 | 153s
+step 39/294 | epoch 1 | loss 0.6867 | pair acc 0.69 | chosen -0.030 | rejected -0.050 | gnorm 7.76 | 154s
+step 40/294 | epoch 1 | loss 0.7012 | pair acc 0.56 | chosen -0.078 | rejected -0.071 | gnorm 8.28 | 155s
+step 41/294 | epoch 1 | loss 0.6747 | pair acc 0.69 | chosen +0.001 | rejected -0.051 | gnorm 8.24 | 155s
+step 42/294 | epoch 1 | loss 0.6605 | pair acc 0.81 | chosen -0.020 | rejected -0.096 | gnorm 8.39 | 156s
+step 43/294 | epoch 1 | loss 0.6592 | pair acc 0.56 | chosen -0.019 | rejected -0.097 | gnorm 7.22 | 157s
+step 44/294 | epoch 1 | loss 0.6823 | pair acc 0.56 | chosen -0.045 | rejected -0.076 | gnorm 8.50 | 158s
+step 45/294 | epoch 1 | loss 0.6504 | pair acc 0.75 | chosen -0.003 | rejected -0.106 | gnorm 8.40 | 159s
+step 46/294 | epoch 1 | loss 0.6881 | pair acc 0.69 | chosen -0.056 | rejected -0.078 | gnorm 8.58 | 159s
+step 47/294 | epoch 1 | loss 0.6614 | pair acc 0.56 | chosen -0.010 | rejected -0.083 | gnorm 9.20 | 160s
+step 48/294 | epoch 1 | loss 0.6554 | pair acc 0.62 | chosen -0.072 | rejected -0.163 | gnorm 8.36 | 161s
+step 49/294 | epoch 1 | loss 0.7110 | pair acc 0.44 | chosen -0.119 | rejected -0.093 | gnorm 8.39 | 162s
+step 50/294 | epoch 1 | loss 0.6328 | pair acc 0.69 | chosen -0.067 | rejected -0.207 | gnorm 9.03 | 163s
+step 50 | val_loss 0.6622 | val_pair_acc 0.5802 | val_margin 0.0756 | heldout_greedy_acc 0.5250
+step 51/294 | epoch 1 | loss 0.6272 | pair acc 0.62 | chosen -0.009 | rejected -0.163 | gnorm 6.99 | 201s
+step 52/294 | epoch 1 | loss 0.6024 | pair acc 0.88 | chosen -0.023 | rejected -0.223 | gnorm 8.01 | 202s
+step 53/294 | epoch 1 | loss 0.6521 | pair acc 0.75 | chosen -0.057 | rejected -0.165 | gnorm 7.87 | 203s
+step 54/294 | epoch 1 | loss 0.6288 | pair acc 0.75 | chosen -0.082 | rejected -0.240 | gnorm 7.39 | 204s
+step 55/294 | epoch 1 | loss 0.5835 | pair acc 0.69 | chosen -0.041 | rejected -0.315 | gnorm 8.16 | 205s
+step 56/294 | epoch 1 | loss 0.5935 | pair acc 0.81 | chosen -0.045 | rejected -0.279 | gnorm 7.39 | 206s
+step 57/294 | epoch 1 | loss 0.6414 | pair acc 0.69 | chosen -0.119 | rejected -0.255 | gnorm 10.41 | 207s
+step 58/294 | epoch 1 | loss 0.6806 | pair acc 0.56 | chosen -0.195 | rejected -0.252 | gnorm 8.04 | 207s
+step 59/294 | epoch 1 | loss 0.6538 | pair acc 0.75 | chosen -0.084 | rejected -0.191 | gnorm 8.46 | 208s
+step 60/294 | epoch 1 | loss 0.6244 | pair acc 0.62 | chosen -0.055 | rejected -0.242 | gnorm 9.85 | 209s
+step 61/294 | epoch 1 | loss 0.5876 | pair acc 0.69 | chosen -0.158 | rejected -0.414 | gnorm 10.73 | 210s
+step 62/294 | epoch 1 | loss 0.6873 | pair acc 0.56 | chosen -0.159 | rejected -0.190 | gnorm 9.68 | 211s
+step 63/294 | epoch 1 | loss 0.5619 | pair acc 0.75 | chosen -0.122 | rejected -0.446 | gnorm 8.21 | 211s
+step 64/294 | epoch 1 | loss 0.6734 | pair acc 0.62 | chosen -0.193 | rejected -0.298 | gnorm 9.40 | 212s
+step 65/294 | epoch 1 | loss 0.6633 | pair acc 0.50 | chosen -0.235 | rejected -0.325 | gnorm 9.30 | 213s
+step 66/294 | epoch 1 | loss 0.5902 | pair acc 0.69 | chosen -0.128 | rejected -0.377 | gnorm 8.98 | 214s
+step 67/294 | epoch 1 | loss 0.5132 | pair acc 0.88 | chosen -0.065 | rejected -0.537 | gnorm 8.30 | 215s
+step 68/294 | epoch 1 | loss 0.6515 | pair acc 0.69 | chosen -0.142 | rejected -0.240 | gnorm 9.86 | 216s
+step 69/294 | epoch 1 | loss 0.5851 | pair acc 0.69 | chosen -0.111 | rejected -0.426 | gnorm 9.05 | 216s
+step 70/294 | epoch 1 | loss 0.5994 | pair acc 0.75 | chosen -0.154 | rejected -0.404 | gnorm 9.06 | 217s
+step 71/294 | epoch 1 | loss 0.5208 | pair acc 0.69 | chosen -0.103 | rejected -0.563 | gnorm 8.54 | 218s
+step 72/294 | epoch 1 | loss 0.6926 | pair acc 0.62 | chosen -0.280 | rejected -0.363 | gnorm 9.58 | 219s
+step 73/294 | epoch 1 | loss 0.6555 | pair acc 0.56 | chosen -0.226 | rejected -0.330 | gnorm 8.82 | 220s
+step 74/294 | epoch 1 | loss 0.6564 | pair acc 0.50 | chosen -0.171 | rejected -0.302 | gnorm 9.12 | 220s
+step 75/294 | epoch 1 | loss 0.4960 | pair acc 0.81 | chosen -0.201 | rejected -0.764 | gnorm 8.31 | 221s
+step 75 | val_loss 0.6018 | val_pair_acc 0.7037 | val_margin 0.2592 | heldout_greedy_acc 0.5150
+step 76/294 | epoch 1 | loss 0.5797 | pair acc 0.75 | chosen -0.136 | rejected -0.404 | gnorm 8.50 | 260s
+step 77/294 | epoch 1 | loss 0.6744 | pair acc 0.44 | chosen -0.335 | rejected -0.472 | gnorm 10.15 | 261s
+step 78/294 | epoch 1 | loss 0.5416 | pair acc 0.69 | chosen -0.180 | rejected -0.628 | gnorm 8.08 | 262s
+step 79/294 | epoch 1 | loss 0.5240 | pair acc 0.81 | chosen -0.160 | rejected -0.591 | gnorm 8.39 | 262s
+step 80/294 | epoch 1 | loss 0.6939 | pair acc 0.50 | chosen -0.347 | rejected -0.496 | gnorm 11.13 | 263s
+step 81/294 | epoch 1 | loss 0.6302 | pair acc 0.56 | chosen -0.269 | rejected -0.458 | gnorm 8.04 | 264s
+step 82/294 | epoch 1 | loss 0.6715 | pair acc 0.56 | chosen -0.360 | rejected -0.491 | gnorm 11.99 | 265s
+step 83/294 | epoch 1 | loss 0.6419 | pair acc 0.69 | chosen -0.294 | rejected -0.464 | gnorm 10.23 | 266s
+step 84/294 | epoch 1 | loss 0.5559 | pair acc 0.81 | chosen -0.273 | rejected -0.633 | gnorm 9.18 | 267s
+step 85/294 | epoch 1 | loss 0.5351 | pair acc 0.69 | chosen -0.202 | rejected -0.738 | gnorm 8.79 | 267s
+step 86/294 | epoch 1 | loss 0.5899 | pair acc 0.69 | chosen -0.287 | rejected -0.784 | gnorm 10.15 | 268s
+step 87/294 | epoch 1 | loss 0.6308 | pair acc 0.75 | chosen -0.357 | rejected -0.667 | gnorm 11.23 | 269s
+step 88/294 | epoch 1 | loss 0.6197 | pair acc 0.62 | chosen -0.230 | rejected -0.479 | gnorm 8.63 | 270s
+step 89/294 | epoch 1 | loss 0.4478 | pair acc 0.75 | chosen -0.299 | rejected -1.202 | gnorm 8.79 | 271s
+step 90/294 | epoch 1 | loss 0.4557 | pair acc 0.88 | chosen -0.278 | rejected -0.976 | gnorm 8.90 | 271s
+step 91/294 | epoch 1 | loss 0.6002 | pair acc 0.62 | chosen -0.397 | rejected -0.709 | gnorm 9.74 | 272s
+step 92/294 | epoch 1 | loss 0.5434 | pair acc 0.81 | chosen -0.295 | rejected -0.694 | gnorm 10.22 | 273s
+step 93/294 | epoch 1 | loss 0.5825 | pair acc 0.69 | chosen -0.387 | rejected -0.758 | gnorm 9.66 | 274s
+step 94/294 | epoch 1 | loss 0.6144 | pair acc 0.62 | chosen -0.562 | rejected -0.827 | gnorm 10.39 | 275s
+step 95/294 | epoch 1 | loss 0.4844 | pair acc 0.81 | chosen -0.449 | rejected -1.000 | gnorm 10.17 | 275s
+step 96/294 | epoch 1 | loss 0.4497 | pair acc 1.00 | chosen -0.309 | rejected -0.972 | gnorm 8.99 | 276s
+step 97/294 | epoch 1 | loss 0.5474 | pair acc 0.75 | chosen -0.277 | rejected -0.687 | gnorm 9.79 | 277s
+step 98/294 | epoch 1 | loss 0.4440 | pair acc 0.81 | chosen -0.296 | rejected -1.091 | gnorm 8.50 | 278s
+step 99/294 | epoch 1 | loss 0.4223 | pair acc 0.88 | chosen -0.486 | rejected -1.398 | gnorm 9.36 | 279s
+step 100/294 | epoch 1 | loss 0.5097 | pair acc 0.75 | chosen -0.563 | rejected -1.153 | gnorm 12.59 | 279s
+step 100 | val_loss 0.5521 | val_pair_acc 0.7160 | val_margin 0.4582 | heldout_greedy_acc 0.4850
+step 101/294 | epoch 1 | loss 0.6171 | pair acc 0.62 | chosen -0.640 | rejected -0.859 | gnorm 11.14 | 328s
+step 102/294 | epoch 1 | loss 0.6191 | pair acc 0.62 | chosen -0.524 | rejected -0.822 | gnorm 11.80 | 329s
+step 103/294 | epoch 1 | loss 0.4516 | pair acc 0.81 | chosen -0.430 | rejected -1.137 | gnorm 8.58 | 329s
+step 104/294 | epoch 1 | loss 0.4673 | pair acc 0.81 | chosen -0.355 | rejected -1.065 | gnorm 8.05 | 330s
+step 105/294 | epoch 1 | loss 0.4112 | pair acc 0.88 | chosen -0.551 | rejected -1.537 | gnorm 8.48 | 331s
+step 106/294 | epoch 1 | loss 0.7249 | pair acc 0.50 | chosen -0.807 | rejected -1.019 | gnorm 15.77 | 332s
+step 107/294 | epoch 1 | loss 0.6930 | pair acc 0.69 | chosen -0.628 | rejected -0.865 | gnorm 11.26 | 333s
+step 108/294 | epoch 1 | loss 0.6246 | pair acc 0.62 | chosen -0.747 | rejected -1.253 | gnorm 13.59 | 333s
+step 109/294 | epoch 1 | loss 0.4909 | pair acc 0.81 | chosen -0.642 | rejected -1.377 | gnorm 10.26 | 334s
+step 110/294 | epoch 1 | loss 0.5036 | pair acc 0.69 | chosen -0.495 | rejected -1.286 | gnorm 10.54 | 335s
+step 111/294 | epoch 1 | loss 0.5576 | pair acc 0.81 | chosen -0.771 | rejected -1.392 | gnorm 12.66 | 336s
+step 112/294 | epoch 1 | loss 0.4995 | pair acc 0.88 | chosen -0.453 | rejected -1.168 | gnorm 10.54 | 337s
+step 113/294 | epoch 1 | loss 0.4538 | pair acc 0.88 | chosen -0.615 | rejected -1.248 | gnorm 8.87 | 337s
+step 114/294 | epoch 1 | loss 0.6061 | pair acc 0.81 | chosen -0.654 | rejected -1.031 | gnorm 12.25 | 338s
+step 115/294 | epoch 1 | loss 0.5941 | pair acc 0.69 | chosen -0.803 | rejected -1.478 | gnorm 11.98 | 339s
+step 116/294 | epoch 1 | loss 0.3779 | pair acc 0.81 | chosen -0.493 | rejected -1.786 | gnorm 9.24 | 340s
+step 117/294 | epoch 1 | loss 0.3615 | pair acc 0.81 | chosen -0.460 | rejected -1.629 | gnorm 7.88 | 340s
+step 118/294 | epoch 1 | loss 0.5387 | pair acc 0.81 | chosen -0.472 | rejected -1.055 | gnorm 11.44 | 341s
+step 119/294 | epoch 1 | loss 0.3264 | pair acc 0.88 | chosen -0.655 | rejected -2.098 | gnorm 8.95 | 342s
+step 120/294 | epoch 1 | loss 0.6829 | pair acc 0.50 | chosen -0.857 | rejected -1.230 | gnorm 11.16 | 343s
+step 121/294 | epoch 1 | loss 0.7114 | pair acc 0.56 | chosen -1.002 | rejected -1.474 | gnorm 19.07 | 343s
+step 122/294 | epoch 1 | loss 0.3825 | pair acc 0.88 | chosen -0.587 | rejected -1.645 | gnorm 10.19 | 344s
+step 123/294 | epoch 1 | loss 0.7346 | pair acc 0.69 | chosen -1.104 | rejected -1.282 | gnorm 15.18 | 345s
+step 124/294 | epoch 1 | loss 0.6569 | pair acc 0.62 | chosen -1.269 | rejected -1.522 | gnorm 14.47 | 346s
+step 125/294 | epoch 1 | loss 0.5605 | pair acc 0.69 | chosen -1.021 | rejected -1.474 | gnorm 13.42 | 347s
+step 125 | val_loss 0.5305 | val_pair_acc 0.7037 | val_margin 0.6185 | heldout_greedy_acc 0.4500
+step 126/294 | epoch 1 | loss 0.6915 | pair acc 0.62 | chosen -1.305 | rejected -1.796 | gnorm 15.19 | 392s
+step 127/294 | epoch 1 | loss 0.6305 | pair acc 0.69 | chosen -0.824 | rejected -1.405 | gnorm 13.93 | 392s
+step 128/294 | epoch 1 | loss 0.4907 | pair acc 0.62 | chosen -0.913 | rejected -1.631 | gnorm 11.58 | 393s
+step 129/294 | epoch 1 | loss 0.4049 | pair acc 0.75 | chosen -0.746 | rejected -1.940 | gnorm 9.37 | 394s
+step 130/294 | epoch 1 | loss 0.5963 | pair acc 0.62 | chosen -0.932 | rejected -1.579 | gnorm 13.34 | 395s
+step 131/294 | epoch 1 | loss 0.5789 | pair acc 0.62 | chosen -0.910 | rejected -1.457 | gnorm 12.61 | 396s
+step 132/294 | epoch 1 | loss 0.4550 | pair acc 0.81 | chosen -1.014 | rejected -1.809 | gnorm 9.24 | 396s
+step 133/294 | epoch 1 | loss 0.5389 | pair acc 0.75 | chosen -0.919 | rejected -1.602 | gnorm 13.36 | 397s
+step 134/294 | epoch 1 | loss 0.3733 | pair acc 0.94 | chosen -0.702 | rejected -1.778 | gnorm 9.15 | 398s
+step 135/294 | epoch 1 | loss 0.5205 | pair acc 0.88 | chosen -0.916 | rejected -1.659 | gnorm 12.94 | 399s
+step 136/294 | epoch 1 | loss 0.5513 | pair acc 0.69 | chosen -1.097 | rejected -1.841 | gnorm 13.60 | 400s
+step 137/294 | epoch 1 | loss 0.5336 | pair acc 0.75 | chosen -0.711 | rejected -1.325 | gnorm 11.28 | 400s
+step 138/294 | epoch 1 | loss 0.5703 | pair acc 0.62 | chosen -1.032 | rejected -1.786 | gnorm 12.97 | 401s
+step 139/294 | epoch 1 | loss 0.4234 | pair acc 0.75 | chosen -0.873 | rejected -2.053 | gnorm 8.97 | 402s
+step 140/294 | epoch 1 | loss 0.4862 | pair acc 0.62 | chosen -0.682 | rejected -1.445 | gnorm 9.91 | 403s
+step 141/294 | epoch 1 | loss 0.7910 | pair acc 0.44 | chosen -1.084 | rejected -1.359 | gnorm 14.57 | 403s
+step 142/294 | epoch 1 | loss 0.5063 | pair acc 0.69 | chosen -0.785 | rejected -1.473 | gnorm 9.32 | 404s
+step 143/294 | epoch 1 | loss 0.4964 | pair acc 0.75 | chosen -0.801 | rejected -1.591 | gnorm 11.75 | 405s
+step 144/294 | epoch 1 | loss 0.5105 | pair acc 0.81 | chosen -0.965 | rejected -1.751 | gnorm 13.19 | 406s
+step 145/294 | epoch 1 | loss 0.7107 | pair acc 0.56 | chosen -1.116 | rejected -1.340 | gnorm 15.45 | 407s
+step 146/294 | epoch 1 | loss 0.3363 | pair acc 0.88 | chosen -0.688 | rejected -1.952 | gnorm 7.38 | 408s
+step 147/294 | epoch 1 | loss 0.4614 | pair acc 0.83 | chosen -0.966 | rejected -1.988 | gnorm 16.79 | 408s
+step 148/294 | epoch 2 | loss 0.3260 | pair acc 0.94 | chosen -0.288 | rejected -1.703 | gnorm 8.85 | 409s
+step 149/294 | epoch 2 | loss 0.3302 | pair acc 0.94 | chosen -0.538 | rejected -1.691 | gnorm 7.03 | 410s
+step 150/294 | epoch 2 | loss 0.3034 | pair acc 0.88 | chosen -0.515 | rejected -1.849 | gnorm 7.01 | 410s
+step 150 | val_loss 0.5199 | val_pair_acc 0.7037 | val_margin 0.6861 | heldout_greedy_acc 0.4450
+step 151/294 | epoch 2 | loss 0.2856 | pair acc 1.00 | chosen -0.817 | rejected -2.065 | gnorm 8.26 | 455s
+step 152/294 | epoch 2 | loss 0.2888 | pair acc 0.88 | chosen -0.657 | rejected -2.235 | gnorm 7.20 | 455s
+step 153/294 | epoch 2 | loss 0.3193 | pair acc 0.88 | chosen -0.753 | rejected -2.222 | gnorm 7.39 | 456s
+step 154/294 | epoch 2 | loss 0.2720 | pair acc 0.94 | chosen -0.627 | rejected -2.412 | gnorm 7.51 | 457s
+step 155/294 | epoch 2 | loss 0.3290 | pair acc 0.88 | chosen -0.690 | rejected -2.157 | gnorm 10.53 | 458s
+step 156/294 | epoch 2 | loss 0.3164 | pair acc 0.94 | chosen -0.680 | rejected -2.135 | gnorm 8.38 | 459s
+step 157/294 | epoch 2 | loss 0.2848 | pair acc 0.94 | chosen -0.410 | rejected -2.071 | gnorm 6.99 | 459s
+step 158/294 | epoch 2 | loss 0.4175 | pair acc 0.81 | chosen -0.711 | rejected -1.836 | gnorm 9.76 | 460s
+step 159/294 | epoch 2 | loss 0.3608 | pair acc 0.88 | chosen -0.554 | rejected -1.723 | gnorm 8.48 | 461s
+step 160/294 | epoch 2 | loss 0.2778 | pair acc 0.88 | chosen -0.716 | rejected -2.518 | gnorm 7.69 | 462s
+step 161/294 | epoch 2 | loss 0.2532 | pair acc 0.94 | chosen -0.744 | rejected -2.909 | gnorm 7.04 | 463s
+step 162/294 | epoch 2 | loss 0.3317 | pair acc 0.88 | chosen -0.578 | rejected -1.828 | gnorm 7.81 | 463s
+step 163/294 | epoch 2 | loss 0.2911 | pair acc 0.88 | chosen -0.711 | rejected -2.369 | gnorm 7.96 | 464s
+step 164/294 | epoch 2 | loss 0.3198 | pair acc 0.88 | chosen -0.526 | rejected -2.236 | gnorm 7.29 | 465s
+step 165/294 | epoch 2 | loss 0.2165 | pair acc 0.94 | chosen -0.671 | rejected -2.877 | gnorm 6.37 | 466s
+step 166/294 | epoch 2 | loss 0.3551 | pair acc 0.81 | chosen -0.714 | rejected -2.022 | gnorm 7.85 | 467s
+step 167/294 | epoch 2 | loss 0.3185 | pair acc 0.88 | chosen -0.859 | rejected -2.238 | gnorm 8.16 | 468s
+step 168/294 | epoch 2 | loss 0.2409 | pair acc 0.94 | chosen -0.999 | rejected -2.747 | gnorm 7.37 | 468s
+step 169/294 | epoch 2 | loss 0.2027 | pair acc 0.94 | chosen -0.910 | rejected -2.827 | gnorm 5.65 | 469s
+step 170/294 | epoch 2 | loss 0.3576 | pair acc 0.94 | chosen -0.808 | rejected -2.088 | gnorm 9.49 | 470s
+step 171/294 | epoch 2 | loss 0.2440 | pair acc 0.88 | chosen -0.689 | rejected -2.985 | gnorm 9.21 | 471s
+step 172/294 | epoch 2 | loss 0.2334 | pair acc 0.94 | chosen -0.888 | rejected -3.899 | gnorm 8.40 | 472s
+step 173/294 | epoch 2 | loss 0.4139 | pair acc 0.81 | chosen -0.971 | rejected -3.051 | gnorm 9.85 | 473s
+step 174/294 | epoch 2 | loss 0.3693 | pair acc 0.88 | chosen -0.936 | rejected -2.474 | gnorm 9.49 | 474s
+step 175/294 | epoch 2 | loss 0.2487 | pair acc 0.88 | chosen -0.782 | rejected -3.078 | gnorm 7.56 | 475s
+step 175 | val_loss 0.4956 | val_pair_acc 0.8025 | val_margin 0.8406 | heldout_greedy_acc 0.4050
+step 176/294 | epoch 2 | loss 0.2982 | pair acc 0.88 | chosen -0.857 | rejected -2.941 | gnorm 7.71 | 519s
+step 177/294 | epoch 2 | loss 0.2171 | pair acc 0.88 | chosen -0.667 | rejected -2.645 | gnorm 6.20 | 520s
+step 178/294 | epoch 2 | loss 0.2136 | pair acc 0.94 | chosen -0.927 | rejected -3.162 | gnorm 7.15 | 520s
+step 179/294 | epoch 2 | loss 0.2699 | pair acc 1.00 | chosen -0.806 | rejected -2.486 | gnorm 6.99 | 521s
+step 180/294 | epoch 2 | loss 0.2071 | pair acc 1.00 | chosen -0.688 | rejected -2.478 | gnorm 7.46 | 522s
+step 181/294 | epoch 2 | loss 0.3634 | pair acc 0.88 | chosen -0.960 | rejected -2.284 | gnorm 10.05 | 523s
+step 182/294 | epoch 2 | loss 0.2132 | pair acc 1.00 | chosen -1.267 | rejected -3.051 | gnorm 7.23 | 524s
+step 183/294 | epoch 2 | loss 0.2930 | pair acc 0.94 | chosen -0.607 | rejected -2.334 | gnorm 10.42 | 524s
+step 184/294 | epoch 2 | loss 0.2945 | pair acc 0.88 | chosen -0.908 | rejected -2.710 | gnorm 8.26 | 525s
+step 185/294 | epoch 2 | loss 0.2899 | pair acc 0.94 | chosen -0.838 | rejected -2.581 | gnorm 10.06 | 526s
+step 186/294 | epoch 2 | loss 0.2723 | pair acc 0.94 | chosen -0.721 | rejected -2.076 | gnorm 8.28 | 527s
+step 187/294 | epoch 2 | loss 0.1807 | pair acc 0.94 | chosen -0.756 | rejected -3.215 | gnorm 7.71 | 528s
+step 188/294 | epoch 2 | loss 0.3239 | pair acc 0.94 | chosen -0.967 | rejected -2.875 | gnorm 10.77 | 528s
+step 189/294 | epoch 2 | loss 0.2519 | pair acc 0.94 | chosen -1.021 | rejected -2.702 | gnorm 7.44 | 530s
+step 190/294 | epoch 2 | loss 0.3961 | pair acc 0.88 | chosen -1.146 | rejected -2.569 | gnorm 10.89 | 531s
+step 191/294 | epoch 2 | loss 0.2396 | pair acc 0.94 | chosen -0.575 | rejected -2.618 | gnorm 7.21 | 532s
+step 192/294 | epoch 2 | loss 0.2366 | pair acc 0.94 | chosen -1.041 | rejected -3.027 | gnorm 8.64 | 533s
+step 193/294 | epoch 2 | loss 0.3408 | pair acc 0.88 | chosen -0.691 | rejected -2.194 | gnorm 9.65 | 534s
+step 194/294 | epoch 2 | loss 0.2013 | pair acc 1.00 | chosen -0.954 | rejected -3.128 | gnorm 8.12 | 535s
+step 195/294 | epoch 2 | loss 0.2209 | pair acc 0.94 | chosen -0.682 | rejected -2.809 | gnorm 6.99 | 536s
+step 196/294 | epoch 2 | loss 0.3278 | pair acc 0.88 | chosen -1.092 | rejected -2.573 | gnorm 10.36 | 537s
+step 197/294 | epoch 2 | loss 0.1009 | pair acc 1.00 | chosen -0.640 | rejected -3.267 | gnorm 3.43 | 537s
+step 198/294 | epoch 2 | loss 0.2562 | pair acc 0.94 | chosen -1.001 | rejected -2.823 | gnorm 9.37 | 538s
+step 199/294 | epoch 2 | loss 0.2993 | pair acc 0.94 | chosen -1.170 | rejected -2.947 | gnorm 9.23 | 539s
+step 200/294 | epoch 2 | loss 0.3161 | pair acc 0.81 | chosen -1.068 | rejected -2.768 | gnorm 9.05 | 540s
+step 200 | val_loss 0.4889 | val_pair_acc 0.7778 | val_margin 0.9655 | heldout_greedy_acc 0.4200
+step 201/294 | epoch 2 | loss 0.3130 | pair acc 0.88 | chosen -0.945 | rejected -2.465 | gnorm 8.51 | 583s
+step 202/294 | epoch 2 | loss 0.1867 | pair acc 0.94 | chosen -1.081 | rejected -3.236 | gnorm 7.90 | 584s
+step 203/294 | epoch 2 | loss 0.2717 | pair acc 0.94 | chosen -1.121 | rejected -3.114 | gnorm 10.82 | 584s
+step 204/294 | epoch 2 | loss 0.2281 | pair acc 0.94 | chosen -0.850 | rejected -3.075 | gnorm 10.72 | 585s
+step 205/294 | epoch 2 | loss 0.1813 | pair acc 0.94 | chosen -0.809 | rejected -3.265 | gnorm 6.35 | 586s
+step 206/294 | epoch 2 | loss 0.1406 | pair acc 1.00 | chosen -1.053 | rejected -3.944 | gnorm 6.15 | 587s
+step 207/294 | epoch 2 | loss 0.2228 | pair acc 0.94 | chosen -0.713 | rejected -2.971 | gnorm 7.03 | 588s
+step 208/294 | epoch 2 | loss 0.2098 | pair acc 1.00 | chosen -1.136 | rejected -3.049 | gnorm 6.93 | 589s
+step 209/294 | epoch 2 | loss 0.4147 | pair acc 0.81 | chosen -1.178 | rejected -2.784 | gnorm 15.24 | 589s
+step 210/294 | epoch 2 | loss 0.2190 | pair acc 1.00 | chosen -1.201 | rejected -3.269 | gnorm 7.42 | 590s
+step 211/294 | epoch 2 | loss 0.2477 | pair acc 0.88 | chosen -0.982 | rejected -3.105 | gnorm 9.79 | 591s
+step 212/294 | epoch 2 | loss 0.3129 | pair acc 0.88 | chosen -1.107 | rejected -3.102 | gnorm 8.31 | 592s
+step 213/294 | epoch 2 | loss 0.2995 | pair acc 0.88 | chosen -1.057 | rejected -2.814 | gnorm 7.20 | 593s
+step 214/294 | epoch 2 | loss 0.1904 | pair acc 0.94 | chosen -0.956 | rejected -3.032 | gnorm 8.22 | 593s
+step 215/294 | epoch 2 | loss 0.2550 | pair acc 0.94 | chosen -1.534 | rejected -3.427 | gnorm 8.68 | 594s
+step 216/294 | epoch 2 | loss 0.1327 | pair acc 1.00 | chosen -0.946 | rejected -3.535 | gnorm 4.85 | 595s
+step 217/294 | epoch 2 | loss 0.2188 | pair acc 0.94 | chosen -1.359 | rejected -3.957 | gnorm 10.46 | 596s
+step 218/294 | epoch 2 | loss 0.2690 | pair acc 0.81 | chosen -0.827 | rejected -2.940 | gnorm 8.63 | 597s
+step 219/294 | epoch 2 | loss 0.2897 | pair acc 0.81 | chosen -0.827 | rejected -2.975 | gnorm 10.92 | 598s
+step 220/294 | epoch 2 | loss 0.1817 | pair acc 0.94 | chosen -1.203 | rejected -3.786 | gnorm 6.69 | 598s
+step 221/294 | epoch 2 | loss 0.2500 | pair acc 0.88 | chosen -1.196 | rejected -3.158 | gnorm 9.34 | 600s
+step 222/294 | epoch 2 | loss 0.2379 | pair acc 0.94 | chosen -0.582 | rejected -2.655 | gnorm 7.46 | 601s
+step 223/294 | epoch 2 | loss 0.1662 | pair acc 0.94 | chosen -1.395 | rejected -3.932 | gnorm 7.21 | 602s
+step 224/294 | epoch 2 | loss 0.1905 | pair acc 1.00 | chosen -0.823 | rejected -2.874 | gnorm 7.27 | 603s
+step 225/294 | epoch 2 | loss 0.3267 | pair acc 0.94 | chosen -1.224 | rejected -3.024 | gnorm 15.83 | 604s
+step 225 | val_loss 0.4941 | val_pair_acc 0.7407 | val_margin 1.0485 | heldout_greedy_acc 0.4400
+step 226/294 | epoch 2 | loss 0.2279 | pair acc 0.94 | chosen -1.045 | rejected -3.224 | gnorm 8.74 | 649s
+step 227/294 | epoch 2 | loss 0.2566 | pair acc 0.88 | chosen -1.153 | rejected -3.200 | gnorm 15.88 | 650s
+step 228/294 | epoch 2 | loss 0.3999 | pair acc 0.81 | chosen -1.356 | rejected -2.973 | gnorm 11.99 | 651s
+step 229/294 | epoch 2 | loss 0.1812 | pair acc 0.94 | chosen -0.911 | rejected -3.506 | gnorm 6.01 | 652s
+step 230/294 | epoch 2 | loss 0.2180 | pair acc 0.94 | chosen -1.218 | rejected -3.506 | gnorm 7.92 | 652s
+step 231/294 | epoch 2 | loss 0.2726 | pair acc 0.88 | chosen -0.976 | rejected -2.895 | gnorm 12.48 | 653s
+step 232/294 | epoch 2 | loss 0.2602 | pair acc 0.88 | chosen -1.141 | rejected -3.461 | gnorm 11.52 | 654s
+step 233/294 | epoch 2 | loss 0.2284 | pair acc 0.94 | chosen -1.293 | rejected -3.506 | gnorm 10.38 | 655s
+step 234/294 | epoch 2 | loss 0.1615 | pair acc 1.00 | chosen -1.283 | rejected -3.468 | gnorm 7.23 | 656s
+step 235/294 | epoch 2 | loss 0.3108 | pair acc 0.88 | chosen -1.105 | rejected -2.381 | gnorm 8.55 | 657s
+step 236/294 | epoch 2 | loss 0.1649 | pair acc 0.94 | chosen -1.581 | rejected -3.724 | gnorm 8.43 | 658s
+step 237/294 | epoch 2 | loss 0.2066 | pair acc 0.88 | chosen -0.957 | rejected -3.094 | gnorm 8.13 | 658s
+step 238/294 | epoch 2 | loss 0.2726 | pair acc 0.81 | chosen -1.026 | rejected -2.766 | gnorm 10.38 | 662s
+step 239/294 | epoch 2 | loss 0.3164 | pair acc 0.94 | chosen -1.302 | rejected -2.836 | gnorm 11.27 | 663s
+step 240/294 | epoch 2 | loss 0.5564 | pair acc 0.75 | chosen -1.190 | rejected -2.333 | gnorm 15.86 | 664s
+step 241/294 | epoch 2 | loss 0.2979 | pair acc 0.94 | chosen -1.142 | rejected -2.881 | gnorm 13.44 | 665s
+step 242/294 | epoch 2 | loss 0.1470 | pair acc 1.00 | chosen -1.093 | rejected -3.600 | gnorm 7.74 | 665s
+step 243/294 | epoch 2 | loss 0.2331 | pair acc 0.94 | chosen -1.318 | rejected -3.735 | gnorm 8.55 | 666s
+step 244/294 | epoch 2 | loss 0.3047 | pair acc 0.88 | chosen -1.161 | rejected -3.162 | gnorm 12.16 | 667s
+step 245/294 | epoch 2 | loss 0.2691 | pair acc 0.81 | chosen -0.837 | rejected -3.165 | gnorm 8.62 | 668s
+step 246/294 | epoch 2 | loss 0.2487 | pair acc 0.81 | chosen -1.205 | rejected -3.756 | gnorm 9.68 | 669s
+step 247/294 | epoch 2 | loss 0.1488 | pair acc 0.94 | chosen -0.984 | rejected -3.686 | gnorm 5.89 | 669s
+step 248/294 | epoch 2 | loss 0.3104 | pair acc 0.88 | chosen -1.460 | rejected -3.370 | gnorm 13.42 | 670s
+step 249/294 | epoch 2 | loss 0.2490 | pair acc 0.94 | chosen -0.982 | rejected -3.162 | gnorm 13.33 | 671s
+step 250/294 | epoch 2 | loss 0.1976 | pair acc 0.88 | chosen -1.067 | rejected -4.108 | gnorm 6.84 | 672s
+step 250 | val_loss 0.4915 | val_pair_acc 0.7778 | val_margin 1.0704 | heldout_greedy_acc 0.4100
+step 251/294 | epoch 2 | loss 0.1788 | pair acc 1.00 | chosen -1.134 | rejected -3.575 | gnorm 6.11 | 716s
+step 252/294 | epoch 2 | loss 0.2191 | pair acc 1.00 | chosen -0.777 | rejected -2.629 | gnorm 8.11 | 717s
+step 253/294 | epoch 2 | loss 0.4314 | pair acc 0.75 | chosen -1.420 | rejected -3.812 | gnorm 19.16 | 718s
+step 254/294 | epoch 2 | loss 0.3130 | pair acc 0.88 | chosen -1.120 | rejected -3.247 | gnorm 12.17 | 719s
+step 255/294 | epoch 2 | loss 0.2400 | pair acc 1.00 | chosen -1.035 | rejected -2.856 | gnorm 7.43 | 719s
+step 256/294 | epoch 2 | loss 0.1280 | pair acc 1.00 | chosen -1.180 | rejected -4.309 | gnorm 7.11 | 720s
+step 257/294 | epoch 2 | loss 0.3003 | pair acc 0.81 | chosen -1.103 | rejected -3.027 | gnorm 10.87 | 721s
+step 258/294 | epoch 2 | loss 0.3028 | pair acc 0.94 | chosen -1.117 | rejected -2.833 | gnorm 9.35 | 722s
+step 259/294 | epoch 2 | loss 0.2225 | pair acc 0.88 | chosen -1.179 | rejected -3.672 | gnorm 8.21 | 723s
+step 260/294 | epoch 2 | loss 0.2541 | pair acc 0.88 | chosen -1.161 | rejected -3.234 | gnorm 11.42 | 724s
+step 261/294 | epoch 2 | loss 0.2977 | pair acc 0.88 | chosen -1.289 | rejected -3.097 | gnorm 14.84 | 724s
+step 262/294 | epoch 2 | loss 0.4509 | pair acc 0.88 | chosen -1.551 | rejected -3.058 | gnorm 15.88 | 725s
+step 263/294 | epoch 2 | loss 0.1994 | pair acc 0.94 | chosen -1.230 | rejected -3.289 | gnorm 6.59 | 726s
+step 264/294 | epoch 2 | loss 0.2405 | pair acc 0.81 | chosen -1.430 | rejected -4.059 | gnorm 11.15 | 727s
+step 265/294 | epoch 2 | loss 0.2978 | pair acc 0.88 | chosen -1.016 | rejected -3.089 | gnorm 8.63 | 728s
+step 266/294 | epoch 2 | loss 0.2304 | pair acc 1.00 | chosen -1.209 | rejected -2.859 | gnorm 10.03 | 728s
+step 267/294 | epoch 2 | loss 0.1434 | pair acc 0.94 | chosen -1.530 | rejected -4.327 | gnorm 11.13 | 729s
+step 268/294 | epoch 2 | loss 0.3654 | pair acc 0.88 | chosen -1.640 | rejected -3.490 | gnorm 11.05 | 730s
+step 269/294 | epoch 2 | loss 0.1646 | pair acc 1.00 | chosen -1.404 | rejected -3.818 | gnorm 7.09 | 731s
+step 270/294 | epoch 2 | loss 0.1413 | pair acc 1.00 | chosen -0.877 | rejected -3.326 | gnorm 7.25 | 732s
+step 271/294 | epoch 2 | loss 0.2076 | pair acc 0.88 | chosen -1.114 | rejected -3.206 | gnorm 9.11 | 733s
+step 272/294 | epoch 2 | loss 0.2459 | pair acc 0.88 | chosen -1.124 | rejected -4.357 | gnorm 11.49 | 734s
+step 273/294 | epoch 2 | loss 0.1771 | pair acc 0.94 | chosen -0.888 | rejected -3.255 | gnorm 6.79 | 734s
+step 274/294 | epoch 2 | loss 0.2767 | pair acc 0.88 | chosen -0.879 | rejected -2.596 | gnorm 9.87 | 735s
+step 275/294 | epoch 2 | loss 0.3688 | pair acc 0.81 | chosen -1.000 | rejected -2.690 | gnorm 13.51 | 736s
+step 275 | val_loss 0.4900 | val_pair_acc 0.7778 | val_margin 1.0980 | heldout_greedy_acc 0.4300
+step 276/294 | epoch 2 | loss 0.2066 | pair acc 0.88 | chosen -0.919 | rejected -3.459 | gnorm 11.34 | 780s
+step 277/294 | epoch 2 | loss 0.2396 | pair acc 0.94 | chosen -1.229 | rejected -3.066 | gnorm 9.42 | 781s
+step 278/294 | epoch 2 | loss 0.3050 | pair acc 0.88 | chosen -0.796 | rejected -2.710 | gnorm 10.39 | 782s
+step 279/294 | epoch 2 | loss 0.3423 | pair acc 0.94 | chosen -1.015 | rejected -2.762 | gnorm 12.14 | 782s
+step 280/294 | epoch 2 | loss 0.3271 | pair acc 0.81 | chosen -0.972 | rejected -2.381 | gnorm 12.29 | 783s
+step 281/294 | epoch 2 | loss 0.0903 | pair acc 1.00 | chosen -0.830 | rejected -4.123 | gnorm 3.68 | 784s
+step 282/294 | epoch 2 | loss 0.3107 | pair acc 0.88 | chosen -1.365 | rejected -3.173 | gnorm 9.51 | 785s
+step 283/294 | epoch 2 | loss 0.1872 | pair acc 0.94 | chosen -0.935 | rejected -3.528 | gnorm 6.75 | 786s
+step 284/294 | epoch 2 | loss 0.1083 | pair acc 1.00 | chosen -1.298 | rejected -4.256 | gnorm 6.37 | 787s
+step 285/294 | epoch 2 | loss 0.2795 | pair acc 0.81 | chosen -0.995 | rejected -2.707 | gnorm 8.45 | 787s
+step 286/294 | epoch 2 | loss 0.1548 | pair acc 1.00 | chosen -0.738 | rejected -3.658 | gnorm 5.81 | 790s
+step 287/294 | epoch 2 | loss 0.2484 | pair acc 0.88 | chosen -1.668 | rejected -3.560 | gnorm 9.82 | 792s
+step 288/294 | epoch 2 | loss 0.4036 | pair acc 0.88 | chosen -1.210 | rejected -3.552 | gnorm 12.32 | 793s
+step 289/294 | epoch 2 | loss 0.4263 | pair acc 0.75 | chosen -1.393 | rejected -2.828 | gnorm 15.44 | 794s
+step 290/294 | epoch 2 | loss 0.2187 | pair acc 0.94 | chosen -1.003 | rejected -3.777 | gnorm 7.70 | 794s
+step 291/294 | epoch 2 | loss 0.3205 | pair acc 0.88 | chosen -1.067 | rejected -3.275 | gnorm 11.09 | 795s
+step 292/294 | epoch 2 | loss 0.2604 | pair acc 0.88 | chosen -0.747 | rejected -2.716 | gnorm 8.49 | 796s
+step 293/294 | epoch 2 | loss 0.2425 | pair acc 0.94 | chosen -1.038 | rejected -3.345 | gnorm 9.56 | 797s
+step 294/294 | epoch 2 | loss 0.1753 | pair acc 1.00 | chosen -0.937 | rejected -3.695 | gnorm 11.60 | 797s
+step 294 | val_loss 0.4902 | val_pair_acc 0.7407 | val_margin 1.0932 | heldout_greedy_acc 0.4350
+/scratch/user/<user>/rl-night/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+saved adapter to outputs/dpo

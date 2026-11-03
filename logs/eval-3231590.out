@@ -1,0 +1,36 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:15,  3.84it/s]Loading weights:   4%|▍         | 11/290 [00:00<00:07, 36.12it/s]Loading weights:   6%|▌         | 17/290 [00:00<00:07, 36.20it/s]Loading weights:   8%|▊         | 24/290 [00:00<00:06, 41.24it/s]Loading weights:  13%|█▎        | 37/290 [00:00<00:04, 62.24it/s]Loading weights:  16%|█▌        | 45/290 [00:00<00:04, 56.26it/s]Loading weights:  18%|█▊        | 52/290 [00:01<00:04, 52.62it/s]Loading weights:  22%|██▏       | 64/290 [00:01<00:03, 64.46it/s]Loading weights:  25%|██▍       | 72/290 [00:01<00:03, 65.75it/s]Loading weights:  27%|██▋       | 79/290 [00:01<00:03, 64.28it/s]Loading weights:  32%|███▏      | 93/290 [00:01<00:02, 80.67it/s]Loading weights:  35%|███▌      | 102/290 [00:01<00:02, 71.01it/s]Loading weights:  39%|███▉      | 113/290 [00:01<00:02, 74.88it/s]Loading weights:  42%|████▏     | 121/290 [00:02<00:02, 57.78it/s]Loading weights:  44%|████▍     | 128/290 [00:02<00:02, 54.27it/s]Loading weights:  49%|████▊     | 141/290 [00:02<00:02, 69.08it/s]Loading weights:  55%|█████▌    | 160/290 [00:02<00:01, 78.73it/s]Loading weights:  58%|█████▊    | 169/290 [00:02<00:02, 60.40it/s]Loading weights:  63%|██████▎   | 182/290 [00:02<00:01, 72.42it/s]Loading weights:  67%|██████▋   | 193/290 [00:03<00:01, 79.58it/s]Loading weights:  70%|███████   | 203/290 [00:03<00:01, 61.99it/s]Loading weights:  75%|███████▍  | 217/290 [00:03<00:01, 72.68it/s]Loading weights:  78%|███████▊  | 226/290 [00:03<00:00, 65.23it/s]Loading weights: 100%|██████████| 290/290 [00:03<00:00, 78.48it/s]
+loaded in 66s; 1319 examples
+  64/1319 (75s)
+  128/1319 (86s)
+  192/1319 (89s)
+  256/1319 (94s)
+  320/1319 (96s)
+  384/1319 (101s)
+  448/1319 (105s)
+  512/1319 (108s)
+  576/1319 (112s)
+  640/1319 (122s)
+  704/1319 (127s)
+  768/1319 (131s)
+  832/1319 (141s)
+  896/1319 (145s)
+  960/1319 (149s)
+  1024/1319 (153s)
+  1088/1319 (158s)
+  1152/1319 (168s)
+  1216/1319 (179s)
+  1280/1319 (189s)
+  1319/1319 (194s)
+saved raw outputs to results/grpo_step100.raw.json
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "adapter": "outputs/grpo/step_100",
+ "split": "test",
+ "n": 1319,
+ "accuracy": 0.4048521607278241,
+ "format_rate": 0.9939347990902199,
+ "mean_new_tokens": 92.06823351023503,
+ "seconds": 194
+}

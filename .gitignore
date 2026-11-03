@@ -1,0 +1,36 @@
+# Model weights (each LoRA adapter is about 35 MB; retrain, or publish via GitHub Releases / Hugging Face Hub)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Environments, caches and downloads
+venv/
+.venv/
+hf/
+models/
+tmp/
+__pycache__/
+*.pyc
+*.tgz
+*.zip
+
+# Cluster-specific environment snapshots (contain non-portable paths)
+requirements-lock.txt
+constraints.txt
+
+# Smoke tests and setup leftovers
+outputs/*_smoke/
+data/*smoke*
+results/smoke*.json
+verify.sbatch
+verify-*.out
+
+# Auto-generated adapter model cards
+outputs/**/README.md
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

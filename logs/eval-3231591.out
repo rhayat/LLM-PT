@@ -1,0 +1,36 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:05,  4.39it/s]Loading weights:   3%|▎         | 9/290 [00:00<00:08, 32.19it/s]Loading weights:   5%|▍         | 14/290 [00:00<00:10, 25.43it/s]Loading weights:   7%|▋         | 19/290 [00:00<00:08, 30.78it/s]Loading weights:  10%|█         | 30/290 [00:00<00:05, 49.48it/s]Loading weights:  14%|█▍        | 41/290 [00:00<00:04, 57.01it/s]Loading weights:  21%|██        | 61/290 [00:01<00:02, 90.95it/s]Loading weights:  25%|██▍       | 72/290 [00:01<00:02, 80.28it/s]Loading weights:  29%|██▉       | 85/290 [00:01<00:02, 88.68it/s]Loading weights:  33%|███▎      | 95/290 [00:01<00:02, 76.56it/s]Loading weights:  36%|███▌      | 104/290 [00:01<00:02, 70.72it/s]Loading weights:  39%|███▊      | 112/290 [00:01<00:02, 68.25it/s]Loading weights:  41%|████▏     | 120/290 [00:02<00:02, 60.33it/s]Loading weights:  44%|████▍     | 127/290 [00:02<00:02, 61.98it/s]Loading weights:  46%|████▌     | 134/290 [00:02<00:02, 58.61it/s]Loading weights:  51%|█████     | 147/290 [00:02<00:02, 71.35it/s]Loading weights:  54%|█████▍    | 158/290 [00:02<00:01, 78.94it/s]Loading weights:  58%|█████▊    | 167/290 [00:02<00:02, 61.02it/s]Loading weights:  60%|██████    | 174/290 [00:02<00:02, 51.16it/s]Loading weights:  66%|██████▌   | 192/290 [00:03<00:01, 69.21it/s]Loading weights:  69%|██████▉   | 200/290 [00:03<00:01, 71.20it/s]Loading weights:  72%|███████▏  | 208/290 [00:03<00:01, 67.98it/s]Loading weights:  76%|███████▌  | 220/290 [00:03<00:00, 74.67it/s]Loading weights:  79%|███████▊  | 228/290 [00:03<00:00, 63.65it/s]Loading weights: 100%|██████████| 290/290 [00:03<00:00, 78.48it/s]
+loaded in 66s; 1319 examples
+  64/1319 (84s)
+  128/1319 (96s)
+  192/1319 (107s)
+  256/1319 (118s)
+  320/1319 (130s)
+  384/1319 (138s)
+  448/1319 (146s)
+  512/1319 (152s)
+  576/1319 (160s)
+  640/1319 (172s)
+  704/1319 (183s)
+  768/1319 (195s)
+  832/1319 (206s)
+  896/1319 (218s)
+  960/1319 (229s)
+  1024/1319 (241s)
+  1088/1319 (252s)
+  1152/1319 (263s)
+  1216/1319 (275s)
+  1280/1319 (286s)
+  1319/1319 (297s)
+saved raw outputs to results/dpo.raw.json
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "adapter": "outputs/dpo",
+ "split": "test",
+ "n": 1319,
+ "accuracy": 0.2918877937831691,
+ "format_rate": 0.9681576952236542,
+ "mean_new_tokens": 133.3267626990144,
+ "seconds": 297
+}

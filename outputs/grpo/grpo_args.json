@@ -1,0 +1,19 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "init_adapter": "outputs/sft",
+ "out": "outputs/grpo",
+ "reward": "verifiable",
+ "steps": 150,
+ "prompts_per_step": 16,
+ "group_size": 8,
+ "max_new_tokens": 256,
+ "temperature": 1.0,
+ "lr": 2e-05,
+ "warmup": 5,
+ "beta": 0.02,
+ "micro_batch": 16,
+ "eval_every": 25,
+ "val_eval": 200,
+ "eval_max_new": 512,
+ "seed": 0
+}

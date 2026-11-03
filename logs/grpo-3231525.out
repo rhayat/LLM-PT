@@ -1,0 +1,165 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:01<06:15,  1.30s/it]Loading weights:   3%|▎         | 8/290 [00:01<00:39,  7.15it/s]Loading weights:   4%|▍         | 11/290 [00:01<00:28,  9.82it/s]Loading weights:   6%|▌         | 18/290 [00:01<00:15, 17.77it/s]Loading weights:   8%|▊         | 22/290 [00:01<00:12, 21.06it/s]Loading weights:   9%|▉         | 27/290 [00:01<00:10, 25.33it/s]Loading weights:  14%|█▍        | 42/290 [00:02<00:05, 48.31it/s]Loading weights:  17%|█▋        | 49/290 [00:02<00:05, 45.36it/s]Loading weights:  19%|█▉        | 55/290 [00:02<00:04, 47.13it/s]Loading weights:  24%|██▍       | 70/290 [00:02<00:03, 61.67it/s]Loading weights:  27%|██▋       | 77/290 [00:02<00:03, 60.07it/s]Loading weights:  32%|███▏      | 93/290 [00:02<00:02, 82.48it/s]Loading weights:  36%|███▌      | 103/290 [00:02<00:02, 82.74it/s]Loading weights:  39%|███▊      | 112/290 [00:03<00:02, 70.25it/s]Loading weights:  41%|████▏     | 120/290 [00:03<00:02, 71.06it/s]Loading weights:  44%|████▍     | 128/290 [00:03<00:02, 70.11it/s]Loading weights:  47%|████▋     | 136/290 [00:03<00:02, 65.86it/s]Loading weights:  49%|████▉     | 143/290 [00:03<00:02, 64.55it/s]Loading weights:  52%|█████▏    | 152/290 [00:03<00:01, 70.17it/s]Loading weights:  57%|█████▋    | 165/290 [00:03<00:01, 81.35it/s]Loading weights:  60%|██████    | 174/290 [00:03<00:01, 72.87it/s]Loading weights:  64%|██████▍   | 187/290 [00:04<00:01, 80.12it/s]Loading weights:  68%|██████▊   | 196/290 [00:04<00:01, 58.89it/s]Loading weights:  72%|███████▏  | 208/290 [00:04<00:01, 70.01it/s]Loading weights:  75%|███████▍  | 217/290 [00:04<00:01, 69.78it/s]Loading weights:  78%|███████▊  | 225/290 [00:04<00:01, 39.76it/s]Loading weights: 100%|██████████| 290/290 [00:04<00:00, 58.02it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 7064.03it/s]
+loaded in 28s; trainable params 8,798,208; 7273 train questions, 200 held-out for eval
+step 0 | held-out greedy accuracy 0.4850 (200 questions)
+step 1/150 | reward 0.419 | acc 0.320 | mixed 0.88 | len 117 | trunc 0.02 | kl 0.0012 | gnorm 0.29 | 87s
+step 2/150 | reward 0.464 | acc 0.367 | mixed 0.94 | len 98 | trunc 0.03 | kl 0.0016 | gnorm 0.35 | 103s
+step 3/150 | reward 0.427 | acc 0.328 | mixed 0.81 | len 84 | trunc 0.01 | kl 0.0015 | gnorm 0.39 | 119s
+step 4/150 | reward 0.452 | acc 0.352 | mixed 0.75 | len 93 | trunc 0.00 | kl 0.0016 | gnorm 0.35 | 134s
+step 5/150 | reward 0.436 | acc 0.336 | mixed 0.69 | len 107 | trunc 0.00 | kl 0.0013 | gnorm 0.26 | 148s
+step 6/150 | reward 0.443 | acc 0.344 | mixed 0.62 | len 96 | trunc 0.01 | kl 0.0014 | gnorm 0.31 | 164s
+step 7/150 | reward 0.479 | acc 0.383 | mixed 0.81 | len 101 | trunc 0.03 | kl 0.0020 | gnorm 0.34 | 180s
+step 8/150 | reward 0.371 | acc 0.273 | mixed 0.62 | len 107 | trunc 0.02 | kl 0.0023 | gnorm 0.27 | 197s
+step 9/150 | reward 0.522 | acc 0.422 | mixed 0.81 | len 92 | trunc 0.00 | kl 0.0042 | gnorm 0.36 | 212s
+step 10/150 | reward 0.513 | acc 0.414 | mixed 0.81 | len 100 | trunc 0.01 | kl 0.0022 | gnorm 0.34 | 228s
+step 11/150 | reward 0.436 | acc 0.336 | mixed 0.56 | len 100 | trunc 0.00 | kl 0.0026 | gnorm 0.27 | 243s
+step 12/150 | reward 0.552 | acc 0.453 | mixed 0.88 | len 85 | trunc 0.01 | kl 0.0026 | gnorm 0.36 | 263s
+step 13/150 | reward 0.489 | acc 0.391 | mixed 0.94 | len 101 | trunc 0.01 | kl 0.0028 | gnorm 0.35 | 279s
+step 14/150 | reward 0.444 | acc 0.344 | mixed 0.88 | len 87 | trunc 0.00 | kl 0.0043 | gnorm 0.34 | 304s
+step 15/150 | reward 0.583 | acc 0.492 | mixed 0.81 | len 91 | trunc 0.02 | kl 0.0037 | gnorm 0.37 | 320s
+step 16/150 | reward 0.466 | acc 0.367 | mixed 0.81 | len 90 | trunc 0.01 | kl 0.0041 | gnorm 0.36 | 336s
+step 17/150 | reward 0.458 | acc 0.359 | mixed 0.81 | len 101 | trunc 0.01 | kl 0.0052 | gnorm 0.33 | 353s
+step 18/150 | reward 0.577 | acc 0.477 | mixed 0.75 | len 77 | trunc 0.00 | kl 0.0049 | gnorm 0.36 | 367s
+step 19/150 | reward 0.462 | acc 0.367 | mixed 0.75 | len 102 | trunc 0.05 | kl 0.0056 | gnorm 0.40 | 383s
+step 20/150 | reward 0.363 | acc 0.266 | mixed 0.69 | len 102 | trunc 0.02 | kl 0.0051 | gnorm 0.30 | 400s
+step 21/150 | reward 0.465 | acc 0.367 | mixed 0.88 | len 93 | trunc 0.02 | kl 0.0063 | gnorm 0.40 | 416s
+step 22/150 | reward 0.576 | acc 0.477 | mixed 0.69 | len 93 | trunc 0.01 | kl 0.0045 | gnorm 0.32 | 431s
+step 23/150 | reward 0.560 | acc 0.461 | mixed 0.88 | len 88 | trunc 0.00 | kl 0.0056 | gnorm 0.36 | 445s
+step 24/150 | reward 0.530 | acc 0.430 | mixed 0.69 | len 87 | trunc 0.00 | kl 0.0052 | gnorm 0.36 | 459s
+step 25/150 | reward 0.561 | acc 0.461 | mixed 0.75 | len 86 | trunc 0.00 | kl 0.0064 | gnorm 0.43 | 473s
+step 25 | held-out greedy accuracy 0.5250 (200 questions)
+/scratch/user/<user>/rl-night/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+step 26/150 | reward 0.600 | acc 0.500 | mixed 0.88 | len 84 | trunc 0.00 | kl 0.0055 | gnorm 0.33 | 516s
+step 27/150 | reward 0.412 | acc 0.312 | mixed 1.00 | len 103 | trunc 0.01 | kl 0.0063 | gnorm 0.41 | 532s
+step 28/150 | reward 0.552 | acc 0.453 | mixed 0.81 | len 81 | trunc 0.01 | kl 0.0064 | gnorm 0.39 | 548s
+step 29/150 | reward 0.522 | acc 0.422 | mixed 0.81 | len 87 | trunc 0.00 | kl 0.0070 | gnorm 0.37 | 561s
+step 30/150 | reward 0.394 | acc 0.297 | mixed 0.88 | len 116 | trunc 0.03 | kl 0.0066 | gnorm 0.35 | 579s
+step 31/150 | reward 0.427 | acc 0.328 | mixed 0.81 | len 92 | trunc 0.01 | kl 0.0079 | gnorm 0.35 | 608s
+step 32/150 | reward 0.521 | acc 0.422 | mixed 0.94 | len 89 | trunc 0.01 | kl 0.0082 | gnorm 0.39 | 631s
+step 33/150 | reward 0.443 | acc 0.344 | mixed 0.88 | len 95 | trunc 0.01 | kl 0.0068 | gnorm 0.37 | 648s
+step 34/150 | reward 0.434 | acc 0.336 | mixed 0.88 | len 100 | trunc 0.02 | kl 0.0061 | gnorm 0.35 | 664s
+step 35/150 | reward 0.647 | acc 0.547 | mixed 0.81 | len 89 | trunc 0.00 | kl 0.0076 | gnorm 0.36 | 678s
+step 36/150 | reward 0.577 | acc 0.477 | mixed 0.88 | len 80 | trunc 0.00 | kl 0.0072 | gnorm 0.42 | 691s
+step 37/150 | reward 0.402 | acc 0.305 | mixed 0.62 | len 110 | trunc 0.02 | kl 0.0068 | gnorm 0.29 | 708s
+step 38/150 | reward 0.458 | acc 0.359 | mixed 0.75 | len 94 | trunc 0.02 | kl 0.0099 | gnorm 0.38 | 725s
+step 39/150 | reward 0.584 | acc 0.484 | mixed 0.81 | len 95 | trunc 0.00 | kl 0.0073 | gnorm 0.34 | 741s
+step 40/150 | reward 0.452 | acc 0.352 | mixed 0.75 | len 103 | trunc 0.00 | kl 0.0104 | gnorm 0.33 | 756s
+step 41/150 | reward 0.567 | acc 0.469 | mixed 0.94 | len 82 | trunc 0.02 | kl 0.0076 | gnorm 0.49 | 772s
+step 42/150 | reward 0.559 | acc 0.461 | mixed 0.88 | len 87 | trunc 0.01 | kl 0.0092 | gnorm 0.45 | 788s
+step 43/150 | reward 0.412 | acc 0.312 | mixed 0.56 | len 94 | trunc 0.01 | kl 0.0115 | gnorm 0.44 | 809s
+step 44/150 | reward 0.552 | acc 0.453 | mixed 0.88 | len 91 | trunc 0.01 | kl 0.0086 | gnorm 0.36 | 825s
+step 45/150 | reward 0.405 | acc 0.305 | mixed 0.75 | len 93 | trunc 0.00 | kl 0.0097 | gnorm 0.36 | 840s
+step 46/150 | reward 0.514 | acc 0.414 | mixed 0.75 | len 98 | trunc 0.00 | kl 0.0110 | gnorm 0.34 | 855s
+step 47/150 | reward 0.387 | acc 0.289 | mixed 0.88 | len 98 | trunc 0.02 | kl 0.0103 | gnorm 0.32 | 872s
+step 48/150 | reward 0.553 | acc 0.453 | mixed 0.81 | len 102 | trunc 0.00 | kl 0.0099 | gnorm 0.30 | 887s
+step 49/150 | reward 0.513 | acc 0.414 | mixed 0.88 | len 93 | trunc 0.01 | kl 0.0117 | gnorm 0.44 | 904s
+step 50/150 | reward 0.491 | acc 0.391 | mixed 0.81 | len 84 | trunc 0.00 | kl 0.0125 | gnorm 0.40 | 923s
+step 50 | held-out greedy accuracy 0.5250 (200 questions)
+step 51/150 | reward 0.372 | acc 0.273 | mixed 0.81 | len 99 | trunc 0.02 | kl 0.0114 | gnorm 0.38 | 964s
+step 52/150 | reward 0.608 | acc 0.508 | mixed 0.69 | len 86 | trunc 0.00 | kl 0.0094 | gnorm 0.30 | 978s
+step 53/150 | reward 0.561 | acc 0.461 | mixed 0.69 | len 92 | trunc 0.00 | kl 0.0105 | gnorm 0.33 | 994s
+step 54/150 | reward 0.436 | acc 0.336 | mixed 0.62 | len 95 | trunc 0.00 | kl 0.0120 | gnorm 0.33 | 1010s
+step 55/150 | reward 0.506 | acc 0.406 | mixed 0.69 | len 81 | trunc 0.00 | kl 0.0114 | gnorm 0.35 | 1021s
+step 56/150 | reward 0.561 | acc 0.461 | mixed 0.81 | len 91 | trunc 0.00 | kl 0.0116 | gnorm 0.40 | 1034s
+step 57/150 | reward 0.480 | acc 0.383 | mixed 0.50 | len 91 | trunc 0.02 | kl 0.0128 | gnorm 0.30 | 1050s
+step 58/150 | reward 0.483 | acc 0.383 | mixed 0.75 | len 87 | trunc 0.00 | kl 0.0136 | gnorm 0.35 | 1063s
+step 59/150 | reward 0.443 | acc 0.344 | mixed 0.69 | len 91 | trunc 0.01 | kl 0.0122 | gnorm 0.36 | 1080s
+step 60/150 | reward 0.591 | acc 0.492 | mixed 0.75 | len 79 | trunc 0.00 | kl 0.0136 | gnorm 0.36 | 1092s
+step 61/150 | reward 0.717 | acc 0.617 | mixed 0.69 | len 85 | trunc 0.00 | kl 0.0120 | gnorm 0.39 | 1106s
+step 62/150 | reward 0.545 | acc 0.445 | mixed 0.88 | len 83 | trunc 0.00 | kl 0.0139 | gnorm 0.39 | 1120s
+step 63/150 | reward 0.600 | acc 0.500 | mixed 0.62 | len 79 | trunc 0.00 | kl 0.0145 | gnorm 0.36 | 1134s
+step 64/150 | reward 0.600 | acc 0.500 | mixed 0.75 | len 75 | trunc 0.00 | kl 0.0129 | gnorm 0.38 | 1149s
+step 65/150 | reward 0.541 | acc 0.445 | mixed 0.88 | len 89 | trunc 0.04 | kl 0.0122 | gnorm 0.42 | 1164s
+step 66/150 | reward 0.598 | acc 0.500 | mixed 0.62 | len 102 | trunc 0.02 | kl 0.0159 | gnorm 0.34 | 1181s
+step 67/150 | reward 0.623 | acc 0.523 | mixed 0.81 | len 76 | trunc 0.00 | kl 0.0136 | gnorm 0.42 | 1193s
+step 68/150 | reward 0.639 | acc 0.539 | mixed 0.44 | len 90 | trunc 0.00 | kl 0.0158 | gnorm 0.30 | 1208s
+step 69/150 | reward 0.410 | acc 0.312 | mixed 0.50 | len 106 | trunc 0.02 | kl 0.0182 | gnorm 0.32 | 1228s
+step 70/150 | reward 0.412 | acc 0.312 | mixed 0.56 | len 106 | trunc 0.01 | kl 0.0173 | gnorm 0.33 | 1250s
+step 71/150 | reward 0.756 | acc 0.656 | mixed 0.81 | len 79 | trunc 0.00 | kl 0.0166 | gnorm 0.47 | 1267s
+step 72/150 | reward 0.528 | acc 0.438 | mixed 0.81 | len 86 | trunc 0.01 | kl 0.0179 | gnorm 0.42 | 1283s
+step 73/150 | reward 0.514 | acc 0.414 | mixed 0.94 | len 90 | trunc 0.00 | kl 0.0188 | gnorm 0.41 | 1297s
+step 74/150 | reward 0.514 | acc 0.414 | mixed 0.62 | len 98 | trunc 0.00 | kl 0.0208 | gnorm 0.34 | 1312s
+step 75/150 | reward 0.435 | acc 0.336 | mixed 0.69 | len 91 | trunc 0.00 | kl 0.0220 | gnorm 0.34 | 1327s
+step 75 | held-out greedy accuracy 0.5500 (200 questions)
+step 76/150 | reward 0.662 | acc 0.562 | mixed 0.62 | len 94 | trunc 0.01 | kl 0.0192 | gnorm 0.34 | 1375s
+step 77/150 | reward 0.670 | acc 0.570 | mixed 0.62 | len 78 | trunc 0.00 | kl 0.0185 | gnorm 0.35 | 1387s
+step 78/150 | reward 0.435 | acc 0.336 | mixed 0.56 | len 95 | trunc 0.01 | kl 0.0211 | gnorm 0.31 | 1403s
+step 79/150 | reward 0.514 | acc 0.414 | mixed 0.75 | len 96 | trunc 0.00 | kl 0.0223 | gnorm 0.34 | 1419s
+step 80/150 | reward 0.702 | acc 0.602 | mixed 0.75 | len 91 | trunc 0.00 | kl 0.0177 | gnorm 0.35 | 1433s
+step 81/150 | reward 0.724 | acc 0.625 | mixed 0.88 | len 88 | trunc 0.01 | kl 0.0217 | gnorm 0.46 | 1449s
+step 82/150 | reward 0.581 | acc 0.484 | mixed 0.75 | len 101 | trunc 0.03 | kl 0.0201 | gnorm 0.51 | 1465s
+step 83/150 | reward 0.545 | acc 0.445 | mixed 0.81 | len 86 | trunc 0.00 | kl 0.0194 | gnorm 0.39 | 1479s
+step 84/150 | reward 0.630 | acc 0.531 | mixed 0.75 | len 89 | trunc 0.01 | kl 0.0234 | gnorm 0.36 | 1495s
+step 85/150 | reward 0.592 | acc 0.492 | mixed 0.88 | len 81 | trunc 0.00 | kl 0.0219 | gnorm 0.39 | 1506s
+step 86/150 | reward 0.584 | acc 0.484 | mixed 0.75 | len 90 | trunc 0.00 | kl 0.0228 | gnorm 0.36 | 1521s
+step 87/150 | reward 0.788 | acc 0.688 | mixed 0.94 | len 81 | trunc 0.00 | kl 0.0195 | gnorm 0.43 | 1532s
+step 88/150 | reward 0.467 | acc 0.367 | mixed 0.56 | len 86 | trunc 0.00 | kl 0.0241 | gnorm 0.40 | 1544s
+step 89/150 | reward 0.442 | acc 0.344 | mixed 0.56 | len 103 | trunc 0.02 | kl 0.0233 | gnorm 0.25 | 1561s
+step 90/150 | reward 0.482 | acc 0.383 | mixed 0.69 | len 106 | trunc 0.01 | kl 0.0222 | gnorm 0.36 | 1579s
+step 91/150 | reward 0.623 | acc 0.523 | mixed 0.69 | len 88 | trunc 0.01 | kl 0.0304 | gnorm 0.44 | 1595s
+step 92/150 | reward 0.490 | acc 0.391 | mixed 0.69 | len 89 | trunc 0.01 | kl 0.0275 | gnorm 0.35 | 1611s
+step 93/150 | reward 0.295 | acc 0.195 | mixed 0.62 | len 94 | trunc 0.00 | kl 0.0253 | gnorm 0.29 | 1624s
+step 94/150 | reward 0.489 | acc 0.391 | mixed 0.62 | len 116 | trunc 0.02 | kl 0.0199 | gnorm 0.29 | 1641s
+step 95/150 | reward 0.606 | acc 0.508 | mixed 0.69 | len 84 | trunc 0.01 | kl 0.0243 | gnorm 0.43 | 1656s
+step 96/150 | reward 0.529 | acc 0.430 | mixed 0.31 | len 99 | trunc 0.01 | kl 0.0270 | gnorm 0.27 | 1676s
+step 97/150 | reward 0.498 | acc 0.398 | mixed 0.75 | len 89 | trunc 0.00 | kl 0.0236 | gnorm 0.40 | 1689s
+step 98/150 | reward 0.569 | acc 0.469 | mixed 0.62 | len 107 | trunc 0.00 | kl 0.0273 | gnorm 0.27 | 1705s
+step 99/150 | reward 0.489 | acc 0.391 | mixed 0.75 | len 89 | trunc 0.01 | kl 0.0313 | gnorm 0.35 | 1721s
+step 100/150 | reward 0.670 | acc 0.570 | mixed 0.88 | len 86 | trunc 0.01 | kl 0.0221 | gnorm 0.38 | 1737s
+step 100 | held-out greedy accuracy 0.5600 (200 questions)
+step 101/150 | reward 0.466 | acc 0.367 | mixed 0.88 | len 96 | trunc 0.01 | kl 0.0271 | gnorm 0.39 | 1773s
+step 102/150 | reward 0.576 | acc 0.477 | mixed 0.81 | len 92 | trunc 0.01 | kl 0.0248 | gnorm 0.39 | 1788s
+step 103/150 | reward 0.577 | acc 0.477 | mixed 0.69 | len 88 | trunc 0.00 | kl 0.0303 | gnorm 0.38 | 1802s
+step 104/150 | reward 0.559 | acc 0.461 | mixed 0.62 | len 92 | trunc 0.02 | kl 0.0263 | gnorm 0.37 | 1818s
+step 105/150 | reward 0.483 | acc 0.383 | mixed 0.81 | len 93 | trunc 0.00 | kl 0.0240 | gnorm 0.35 | 1831s
+step 106/150 | reward 0.545 | acc 0.445 | mixed 0.81 | len 92 | trunc 0.01 | kl 0.0258 | gnorm 0.35 | 1847s
+step 107/150 | reward 0.748 | acc 0.648 | mixed 0.69 | len 74 | trunc 0.00 | kl 0.0374 | gnorm 0.43 | 1861s
+step 108/150 | reward 0.623 | acc 0.523 | mixed 0.69 | len 93 | trunc 0.00 | kl 0.0254 | gnorm 0.32 | 1877s
+step 109/150 | reward 0.598 | acc 0.500 | mixed 0.69 | len 101 | trunc 0.01 | kl 0.0233 | gnorm 0.33 | 1894s
+step 110/150 | reward 0.537 | acc 0.438 | mixed 0.69 | len 93 | trunc 0.01 | kl 0.0236 | gnorm 0.39 | 1910s
+step 111/150 | reward 0.498 | acc 0.398 | mixed 0.75 | len 98 | trunc 0.01 | kl 0.0273 | gnorm 0.40 | 1927s
+step 112/150 | reward 0.482 | acc 0.383 | mixed 0.75 | len 95 | trunc 0.00 | kl 0.0290 | gnorm 0.39 | 1942s
+step 113/150 | reward 0.663 | acc 0.562 | mixed 0.69 | len 87 | trunc 0.00 | kl 0.0253 | gnorm 0.35 | 1954s
+step 114/150 | reward 0.521 | acc 0.422 | mixed 0.81 | len 103 | trunc 0.01 | kl 0.0239 | gnorm 0.33 | 1977s
+step 115/150 | reward 0.577 | acc 0.477 | mixed 0.69 | len 84 | trunc 0.00 | kl 0.0230 | gnorm 0.35 | 1992s
+step 116/150 | reward 0.646 | acc 0.547 | mixed 0.56 | len 90 | trunc 0.00 | kl 0.0285 | gnorm 0.29 | 2008s
+step 117/150 | reward 0.459 | acc 0.359 | mixed 0.56 | len 87 | trunc 0.01 | kl 0.0283 | gnorm 0.32 | 2024s
+step 118/150 | reward 0.584 | acc 0.484 | mixed 0.62 | len 98 | trunc 0.01 | kl 0.0244 | gnorm 0.31 | 2040s
+step 119/150 | reward 0.591 | acc 0.492 | mixed 0.75 | len 79 | trunc 0.01 | kl 0.0343 | gnorm 0.44 | 2055s
+step 120/150 | reward 0.483 | acc 0.383 | mixed 0.62 | len 97 | trunc 0.00 | kl 0.0277 | gnorm 0.35 | 2079s
+step 121/150 | reward 0.545 | acc 0.445 | mixed 0.62 | len 94 | trunc 0.00 | kl 0.0313 | gnorm 0.31 | 2093s
+step 122/150 | reward 0.795 | acc 0.695 | mixed 0.62 | len 86 | trunc 0.00 | kl 0.0234 | gnorm 0.33 | 2106s
+step 123/150 | reward 0.600 | acc 0.500 | mixed 0.56 | len 95 | trunc 0.00 | kl 0.0287 | gnorm 0.34 | 2119s
+step 124/150 | reward 0.482 | acc 0.383 | mixed 0.81 | len 104 | trunc 0.00 | kl 0.0226 | gnorm 0.36 | 2137s
+step 125/150 | reward 0.616 | acc 0.516 | mixed 0.69 | len 82 | trunc 0.00 | kl 0.0250 | gnorm 0.40 | 2151s
+step 125 | held-out greedy accuracy 0.5150 (200 questions)
+step 126/150 | reward 0.434 | acc 0.336 | mixed 0.88 | len 100 | trunc 0.02 | kl 0.0273 | gnorm 0.35 | 2188s
+step 127/150 | reward 0.616 | acc 0.516 | mixed 0.69 | len 91 | trunc 0.00 | kl 0.0274 | gnorm 0.38 | 2204s
+step 128/150 | reward 0.694 | acc 0.594 | mixed 0.75 | len 69 | trunc 0.00 | kl 0.0320 | gnorm 0.45 | 2214s
+step 129/150 | reward 0.639 | acc 0.539 | mixed 0.75 | len 81 | trunc 0.00 | kl 0.0289 | gnorm 0.35 | 2227s
+step 130/150 | reward 0.435 | acc 0.336 | mixed 0.62 | len 91 | trunc 0.01 | kl 0.0262 | gnorm 0.30 | 2243s
+step 131/150 | reward 0.756 | acc 0.656 | mixed 0.69 | len 80 | trunc 0.00 | kl 0.0389 | gnorm 0.44 | 2258s
+step 132/150 | reward 0.569 | acc 0.469 | mixed 0.69 | len 84 | trunc 0.00 | kl 0.0249 | gnorm 0.36 | 2277s
+step 133/150 | reward 0.459 | acc 0.359 | mixed 0.75 | len 109 | trunc 0.01 | kl 0.0240 | gnorm 0.34 | 2293s
+step 134/150 | reward 0.402 | acc 0.305 | mixed 0.69 | len 104 | trunc 0.02 | kl 0.0316 | gnorm 0.34 | 2309s
+step 135/150 | reward 0.489 | acc 0.391 | mixed 0.69 | len 98 | trunc 0.02 | kl 0.0312 | gnorm 0.37 | 2325s
+step 136/150 | reward 0.543 | acc 0.445 | mixed 0.75 | len 106 | trunc 0.02 | kl 0.0248 | gnorm 0.35 | 2341s
+step 137/150 | reward 0.577 | acc 0.477 | mixed 0.75 | len 97 | trunc 0.00 | kl 0.0303 | gnorm 0.32 | 2354s
+step 138/150 | reward 0.544 | acc 0.445 | mixed 0.69 | len 97 | trunc 0.02 | kl 0.0265 | gnorm 0.33 | 2379s
+step 139/150 | reward 0.584 | acc 0.484 | mixed 0.75 | len 94 | trunc 0.00 | kl 0.0291 | gnorm 0.31 | 2395s
+step 140/150 | reward 0.607 | acc 0.508 | mixed 0.75 | len 100 | trunc 0.01 | kl 0.0271 | gnorm 0.36 | 2410s
+step 141/150 | reward 0.670 | acc 0.570 | mixed 0.81 | len 87 | trunc 0.00 | kl 0.0324 | gnorm 0.36 | 2425s
+step 142/150 | reward 0.623 | acc 0.523 | mixed 0.81 | len 94 | trunc 0.00 | kl 0.0255 | gnorm 0.38 | 2442s
+step 143/150 | reward 0.631 | acc 0.531 | mixed 0.56 | len 83 | trunc 0.00 | kl 0.0337 | gnorm 0.40 | 2456s
+step 144/150 | reward 0.637 | acc 0.539 | mixed 0.69 | len 98 | trunc 0.02 | kl 0.0276 | gnorm 0.32 | 2477s
+step 145/150 | reward 0.741 | acc 0.641 | mixed 0.50 | len 83 | trunc 0.00 | kl 0.0359 | gnorm 0.36 | 2495s
+step 146/150 | reward 0.530 | acc 0.430 | mixed 0.69 | len 104 | trunc 0.00 | kl 0.0309 | gnorm 0.31 | 2510s
+step 147/150 | reward 0.639 | acc 0.539 | mixed 0.56 | len 85 | trunc 0.00 | kl 0.0298 | gnorm 0.33 | 2523s
+step 148/150 | reward 0.623 | acc 0.523 | mixed 1.00 | len 92 | trunc 0.01 | kl 0.0311 | gnorm 0.41 | 2538s
+step 149/150 | reward 0.608 | acc 0.508 | mixed 0.62 | len 87 | trunc 0.00 | kl 0.0315 | gnorm 0.30 | 2552s
+step 150/150 | reward 0.538 | acc 0.438 | mixed 0.88 | len 97 | trunc 0.00 | kl 0.0277 | gnorm 0.33 | 2568s
+step 150 | held-out greedy accuracy 0.5550 (200 questions)
+saved adapter to outputs/grpo

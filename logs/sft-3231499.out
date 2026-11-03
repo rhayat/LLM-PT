@@ -1,0 +1,35 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+train 64 (dropped 0 too long), val 16; tokens/example mean 214 max 385
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:55,  2.50it/s]Loading weights:   2%|▏         | 7/290 [00:00<00:19, 14.59it/s]Loading weights:   5%|▍         | 14/290 [00:00<00:15, 18.34it/s]Loading weights:   9%|▊         | 25/290 [00:01<00:08, 33.03it/s]Loading weights:  11%|█         | 32/290 [00:01<00:06, 40.24it/s]Loading weights:  18%|█▊        | 51/290 [00:01<00:03, 71.63it/s]Loading weights:  21%|██        | 61/290 [00:01<00:02, 77.67it/s]Loading weights:  24%|██▍       | 71/290 [00:01<00:02, 82.44it/s]Loading weights:  28%|██▊       | 81/290 [00:01<00:02, 80.27it/s]Loading weights:  31%|███       | 90/290 [00:01<00:02, 78.31it/s]Loading weights:  36%|███▌      | 105/290 [00:01<00:02, 91.62it/s]Loading weights:  40%|███▉      | 115/290 [00:01<00:02, 82.56it/s]Loading weights:  43%|████▎     | 124/290 [00:02<00:02, 78.29it/s]Loading weights:  46%|████▌     | 134/290 [00:02<00:01, 81.09it/s]Loading weights:  49%|████▉     | 143/290 [00:02<00:02, 49.04it/s]Loading weights:  54%|█████▍    | 157/290 [00:02<00:02, 58.11it/s]Loading weights:  58%|█████▊    | 167/290 [00:02<00:01, 63.09it/s]Loading weights:  61%|██████    | 177/290 [00:03<00:01, 64.94it/s]Loading weights:  64%|██████▍   | 186/290 [00:03<00:01, 65.33it/s]Loading weights:  69%|██████▊   | 199/290 [00:03<00:01, 77.11it/s]Loading weights:  74%|███████▍  | 214/290 [00:03<00:00, 92.76it/s]Loading weights:  78%|███████▊  | 225/290 [00:03<00:00, 87.54it/s]Loading weights:  81%|████████  | 235/290 [00:03<00:00, 79.74it/s]Loading weights:  84%|████████▍ | 244/290 [00:03<00:00, 75.43it/s]Loading weights:  87%|████████▋ | 252/290 [00:03<00:00, 72.91it/s]Loading weights: 100%|██████████| 290/290 [00:04<00:00, 72.18it/s]
+trainable params: 8,798,208 || all params: 502,830,976 || trainable%: 1.7497
+2 optimizer steps (2/epoch), effective batch 32, warmup 1
+step 0 | val loss 0.7194
+step 2/2 | epoch 1 | train loss 0.6882 | grad norm 1.36 | lr 0.00e+00 | 48s
+step 2 | val loss 0.5941
+/scratch/user/<user>/rl-night/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+saved adapter to outputs/sft_smoke
+
+--- gold 24 ---
+Q: The result from the 40-item Statistics exam Marion and Ella took already came out. Ella got 4 incorrect answers while Marion got 6 more than half the score of Ella. What is Marion's score?
+A: Marion got 6 + 1/2 * 4 = 6 + 2 = 8 incorrect answers.
+Marion got 40 - 8 = 32 correct answers.
+Marion's score is 32 / 2 = 16.
+#### 16
+
+--- gold 600000 ---
+Q: Stephen made 10 round trips up and down a 40,000 foot tall mountain. If he reached 3/4 of the mountain's height on each of his trips, calculate the total distance he covered.
+A: He made 10*2=20 round trips
+He reached 3/4*40,000=30,000 feet
+He covered 30,000*20=600,000 feet
+#### 600000
+
+--- gold 2 ---
+Q: Bridget counted 14 shooting stars in the night sky.  Reginald counted two fewer shooting stars than did Bridget, but Sam counted four more shooting stars than did Reginald.  How many more shooting stars did Sam count in the night sky than was the average number of shooting stars observed for the three of them?
+A: Reginald counted 14 - 2 = 12 shooting stars.
+Sam counted 12 + 4 = 16 shooting stars.
+The total number of shooting stars counted was 14 + 12 + 16 = 42.
+The average number of shooting stars counted was 42 / 3 = 14.
+Sam counted 16 - 14 = 2 more shooting stars than the average.
+#### 2

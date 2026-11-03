@@ -1,0 +1,18 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "init_adapter": "outputs/sft",
+ "pairs": "data/prefs.jsonl",
+ "out": "outputs/dpo",
+ "beta": 0.1,
+ "lr": 2e-05,
+ "epochs": 2,
+ "batch_pairs": 16,
+ "micro_pairs": 4,
+ "max_len": 512,
+ "warmup": 5,
+ "val_questions": 50,
+ "eval_every": 25,
+ "val_eval": 200,
+ "eval_max_new": 512,
+ "seed": 0
+}

@@ -1,0 +1,21 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 4000.68it/s]
+loaded in 9s; sampling 4 answers for 32 questions
+  8/32 questions | 6 pairs | 28s
+  16/32 questions | 11 pairs | 33s
+  24/32 questions | 16 pairs | 37s
+  32/32 questions | 22 pairs | 42s
+{
+ "questions": 32,
+ "pairs": 22,
+ "samples": 128,
+ "sample_accuracy": 0.28125,
+ "unfinished_fraction": 0.015625,
+ "questions_all_correct": 0.0625,
+ "questions_all_wrong": 0.4375,
+ "questions_mixed": 0.5,
+ "mean_tokens_chosen": 81.13636363636364,
+ "mean_tokens_rejected": 82.54545454545455,
+ "seconds": 42
+}

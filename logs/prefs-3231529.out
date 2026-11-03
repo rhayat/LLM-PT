@@ -1,0 +1,142 @@
+Using the latest cached version of the dataset since openai/gsm8k couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'main' at /scratch/user/<user>/rl-night/hf/datasets/openai___gsm8k/main/0.0.0/740312add88f781978c0658806c59bc2815b9866 (last modified on Tue Nov  3 01:33:03 2026).
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 6953.06it/s]
+loaded in 2s; sampling 8 answers for 2000 questions
+  16/2000 questions | 22 pairs | 9s
+  32/2000 questions | 38 pairs | 15s
+  48/2000 questions | 62 pairs | 20s
+  64/2000 questions | 80 pairs | 26s
+  80/2000 questions | 96 pairs | 31s
+  96/2000 questions | 110 pairs | 37s
+  112/2000 questions | 124 pairs | 43s
+  128/2000 questions | 143 pairs | 49s
+  144/2000 questions | 161 pairs | 55s
+  160/2000 questions | 183 pairs | 61s
+  176/2000 questions | 202 pairs | 67s
+  192/2000 questions | 225 pairs | 73s
+  208/2000 questions | 248 pairs | 79s
+  224/2000 questions | 262 pairs | 85s
+  240/2000 questions | 283 pairs | 90s
+  256/2000 questions | 308 pairs | 96s
+  272/2000 questions | 330 pairs | 103s
+  288/2000 questions | 350 pairs | 108s
+  304/2000 questions | 365 pairs | 114s
+  320/2000 questions | 387 pairs | 120s
+  336/2000 questions | 404 pairs | 127s
+  352/2000 questions | 422 pairs | 133s
+  368/2000 questions | 447 pairs | 139s
+  384/2000 questions | 469 pairs | 145s
+  400/2000 questions | 488 pairs | 151s
+  416/2000 questions | 507 pairs | 158s
+  432/2000 questions | 528 pairs | 164s
+  448/2000 questions | 543 pairs | 171s
+  464/2000 questions | 568 pairs | 176s
+  480/2000 questions | 579 pairs | 182s
+  496/2000 questions | 594 pairs | 188s
+  512/2000 questions | 619 pairs | 195s
+  528/2000 questions | 637 pairs | 199s
+  544/2000 questions | 656 pairs | 205s
+  560/2000 questions | 673 pairs | 212s
+  576/2000 questions | 692 pairs | 219s
+  592/2000 questions | 713 pairs | 224s
+  608/2000 questions | 729 pairs | 231s
+  624/2000 questions | 750 pairs | 237s
+  640/2000 questions | 771 pairs | 242s
+  656/2000 questions | 785 pairs | 248s
+  672/2000 questions | 806 pairs | 255s
+  688/2000 questions | 825 pairs | 261s
+  704/2000 questions | 846 pairs | 268s
+  720/2000 questions | 863 pairs | 274s
+  736/2000 questions | 889 pairs | 279s
+  752/2000 questions | 905 pairs | 285s
+  768/2000 questions | 921 pairs | 291s
+  784/2000 questions | 941 pairs | 303s
+  800/2000 questions | 962 pairs | 313s
+  816/2000 questions | 986 pairs | 320s
+  832/2000 questions | 1000 pairs | 326s
+  848/2000 questions | 1018 pairs | 332s
+  864/2000 questions | 1039 pairs | 337s
+  880/2000 questions | 1060 pairs | 343s
+  896/2000 questions | 1076 pairs | 349s
+  912/2000 questions | 1094 pairs | 355s
+  928/2000 questions | 1111 pairs | 361s
+  944/2000 questions | 1126 pairs | 367s
+  960/2000 questions | 1150 pairs | 372s
+  976/2000 questions | 1169 pairs | 376s
+  992/2000 questions | 1192 pairs | 382s
+  1008/2000 questions | 1214 pairs | 388s
+  1024/2000 questions | 1232 pairs | 395s
+  1040/2000 questions | 1248 pairs | 401s
+  1056/2000 questions | 1269 pairs | 407s
+  1072/2000 questions | 1286 pairs | 413s
+  1088/2000 questions | 1311 pairs | 418s
+  1104/2000 questions | 1329 pairs | 424s
+  1120/2000 questions | 1349 pairs | 430s
+  1136/2000 questions | 1372 pairs | 436s
+  1152/2000 questions | 1393 pairs | 442s
+  1168/2000 questions | 1420 pairs | 448s
+  1184/2000 questions | 1438 pairs | 453s
+  1200/2000 questions | 1449 pairs | 459s
+  1216/2000 questions | 1460 pairs | 465s
+  1232/2000 questions | 1483 pairs | 471s
+  1248/2000 questions | 1508 pairs | 477s
+  1264/2000 questions | 1528 pairs | 483s
+  1280/2000 questions | 1547 pairs | 490s
+  1296/2000 questions | 1565 pairs | 496s
+  1312/2000 questions | 1583 pairs | 502s
+  1328/2000 questions | 1608 pairs | 507s
+  1344/2000 questions | 1623 pairs | 513s
+  1360/2000 questions | 1641 pairs | 519s
+  1376/2000 questions | 1659 pairs | 524s
+  1392/2000 questions | 1679 pairs | 529s
+  1408/2000 questions | 1700 pairs | 534s
+  1424/2000 questions | 1719 pairs | 540s
+  1440/2000 questions | 1742 pairs | 546s
+  1456/2000 questions | 1761 pairs | 553s
+  1472/2000 questions | 1780 pairs | 559s
+  1488/2000 questions | 1796 pairs | 565s
+  1504/2000 questions | 1813 pairs | 571s
+  1520/2000 questions | 1829 pairs | 578s
+  1536/2000 questions | 1847 pairs | 584s
+  1552/2000 questions | 1869 pairs | 590s
+  1568/2000 questions | 1890 pairs | 596s
+  1584/2000 questions | 1909 pairs | 603s
+  1600/2000 questions | 1925 pairs | 610s
+  1616/2000 questions | 1940 pairs | 619s
+  1632/2000 questions | 1964 pairs | 625s
+  1648/2000 questions | 1983 pairs | 631s
+  1664/2000 questions | 2008 pairs | 637s
+  1680/2000 questions | 2029 pairs | 643s
+  1696/2000 questions | 2053 pairs | 650s
+  1712/2000 questions | 2075 pairs | 656s
+  1728/2000 questions | 2096 pairs | 662s
+  1744/2000 questions | 2115 pairs | 668s
+  1760/2000 questions | 2131 pairs | 675s
+  1776/2000 questions | 2148 pairs | 681s
+  1792/2000 questions | 2169 pairs | 687s
+  1808/2000 questions | 2186 pairs | 693s
+  1824/2000 questions | 2199 pairs | 699s
+  1840/2000 questions | 2219 pairs | 705s
+  1856/2000 questions | 2240 pairs | 710s
+  1872/2000 questions | 2260 pairs | 716s
+  1888/2000 questions | 2280 pairs | 723s
+  1904/2000 questions | 2302 pairs | 729s
+  1920/2000 questions | 2323 pairs | 735s
+  1936/2000 questions | 2346 pairs | 741s
+  1952/2000 questions | 2366 pairs | 748s
+  1968/2000 questions | 2386 pairs | 754s
+  1984/2000 questions | 2403 pairs | 760s
+  2000/2000 questions | 2423 pairs | 766s
+{
+ "questions": 2000,
+ "pairs": 2423,
+ "samples": 16000,
+ "sample_accuracy": 0.3374375,
+ "unfinished_fraction": 0.015,
+ "questions_all_correct": 0.0345,
+ "questions_all_wrong": 0.242,
+ "questions_mixed": 0.7235,
+ "mean_tokens_chosen": 83.82872472141973,
+ "mean_tokens_rejected": 90.90713990920347,
+ "seconds": 766
+}
